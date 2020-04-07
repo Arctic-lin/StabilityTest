@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<properties>
+    <test_mode value="daily"/>
+    <build_name value="bbry_sdm636_sfi-user-ABB246"/>
+    <product_name property_key="ro.product.name" value="bbe100dsglobal"/>
+    <software_version property_key="ro.boot.build_number" value="ABB246"/>
+    <hardware_variant property_key="ro.tct.trace.pts" value="222"/>
+    <gms_version property_key="ro.com.google.gmsversion" value="8.1_201805"/>
+    <fingerprint property_key="ro.build.fingerprint"
+                 value="blackberry/bbe100dsglobal/bbe100:8.1.0/OPM1.171019.026/ABB246:user/release-keys"/>
+    <security_patch_level property_key="ro.build.version.security_patch" value="2018-06-05"/>
+    <ecid property_key="ro.ecid" value="1"/>
+    <serino value="5000002615"/>
+    <email_list_for_mp value="wei_zhou@tcl.com"/>
+    <email_list_for_smoke value="wei_zhou@tcl.com"/>
+    <branch_for_smoke value=""/>
+    <device_for_smoke value="Luna"/>
+    <test_plan_type value="smoke"/>
+    <project_name value="Luna"/>
+</properties>

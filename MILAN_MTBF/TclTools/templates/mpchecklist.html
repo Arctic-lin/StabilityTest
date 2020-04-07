@@ -1,0 +1,25 @@
+<!--say hello-->
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Hi all,</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Here is {project_name} {test_plan} report on
+    {sw_version}</p>
+<!--Test result summery-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test Result</h3>
+<p style='font-family:"Calibri","sans-serif"'>&nbsp;&nbsp;&nbsp;&nbsp;<span style='background:lime;mso-highlight:lime'>PASS</span>
+    or <span style='background:red;mso-highlight:red'>FAIL</span><br/></p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;&nbsp;&nbsp;&nbsp;Detailed result:
+    {loops_show_results}<br/></p>
+<h4 style='font-family:"Calibri","sans-serif";color:#FF0000'>{crashed_str}</h4>
+<!--highlight some things-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Highlights</h3>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;&nbsp;&nbsp;&nbsp;NO issue to highlight<br/></p>
+<!--NT cases-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>NT Cases</h3>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;&nbsp;&nbsp;&nbsp;NO NT case this time<br/></p>
+<!--Defects-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Defects</h3>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;&nbsp;&nbsp;&nbsp;NO defects this time<br/></p>
+<!--key system property-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Key System property</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    {loops_show_properties}
+</table>

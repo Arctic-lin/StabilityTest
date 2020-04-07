@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12e5b499-fbb7-450a-92fc-bafb8248996b" name="Default" comment="description: add Pre-configured.docx&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <ignored path="trunk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".idea/" />
+    <ignored path="results/fail_img/" />
+    <ignored path="results/" />
+    <ignored path="StabilityResource/10020003000.vcf" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/T1_Stability$19_Gallery.coverage" NAME="19_Gallery Coverage Results" MODIFIED="1569585413595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$11_MusicPlayer.coverage" NAME="11_MusicPlayer Coverage Results" MODIFIED="1575257732918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-PRO$04_Messaging.coverage" NAME="04_Messaging Coverage Results" MODIFIED="1576483367117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$07_StoreFront_Download.coverage" NAME="07_StoreFront_Download Coverage Results" MODIFIED="1569722237365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-PRO$19_Gallery.coverage" NAME="19_Gallery Coverage Results" MODIFIED="1577068680944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$12_Camera.coverage" NAME="12_Camera Coverage Results" MODIFIED="1574680042824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10_Stability$23_Lockscreen_Launcher_.coverage" NAME="23_Lockscreen(Launcher) Coverage Results" MODIFIED="1569740899172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10_Stability$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1569734088788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$22_SettingsStatusbar.coverage" NAME="22_SettingsStatusbar Coverage Results" MODIFIED="1572682570202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_APK_Check_006.coverage" NAME="Unittest SettingRelated.test_APK_Check_006 Coverage Results" MODIFIED="1573110873069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Fingerprint_001.coverage" NAME="Unittest SettingRelated.test_Fingerprint_001 Coverage Results" MODIFIED="1573031118580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_00_setup_py.coverage" NAME="Unittests in 00_setup.py Coverage Results" MODIFIED="1584619311463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Hidden_Code_006.coverage" NAME="Unittest SettingRelated.test_Hidden_Code_006 Coverage Results" MODIFIED="1573097226323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$14_GoogleMaps_Interrupt.coverage" NAME="14_GoogleMaps_Interrupt Coverage Results" MODIFIED="1572943111604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Hidden_Code_001.coverage" NAME="Unittest SettingRelated.test_Hidden_Code_001 Coverage Results" MODIFIED="1573094663290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$configs.coverage" NAME="configs Coverage Results" MODIFIED="1583896185558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/T1-PRO$06_Browser.coverage" NAME="06_Browser Coverage Results" MODIFIED="1578554552607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$04_Messaging.coverage" NAME="04_Messaging Coverage Results" MODIFIED="1575266932988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$telephony.coverage" NAME="telephony Coverage Results" MODIFIED="1584607028548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_PreSetUp_test_0_prepare_all_device.coverage" NAME="Unittest PreSetUp.test_0_prepare_all_device Coverage Results" MODIFIED="1573464254415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$recorder.coverage" NAME="recorder Coverage Results" MODIFIED="1583898535987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$17_FileManager.coverage" NAME="17_FileManager Coverage Results" MODIFIED="1584432139249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1584410288986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittests_in_02_MP_Check_Cases.coverage" NAME="Unittests in 02_MP_Check_Cases Coverage Results" MODIFIED="1573034034142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-PRO$Unittests_in_PreSetUp.coverage" NAME="Unittests in PreSetUp Coverage Results" MODIFIED="1576129349136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$16_Wifi.coverage" NAME="16_Wifi Coverage Results" MODIFIED="1584430424542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_APK_Check_005.coverage" NAME="Unittest SettingRelated.test_APK_Check_005 Coverage Results" MODIFIED="1573110470256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-PRO$20_Camera.coverage" NAME="20_Camera Coverage Results" MODIFIED="1576920822629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/endurance" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$23_Lockscreen_Launcher.coverage" NAME="23_Lockscreen_Launcher Coverage Results" MODIFIED="1584942961326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1575256634734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Hidden_Code_002.coverage" NAME="Unittest SettingRelated.test_Hidden_Code_002 Coverage Results" MODIFIED="1573095190936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$11_MusicPlayer.coverage" NAME="11_MusicPlayer Coverage Results" MODIFIED="1584411505086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_TestGoogleReq_test_004_geo_match.coverage" NAME="Unittest TestGoogleReq.test_004_geo_match Coverage Results" MODIFIED="1573118043941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_baseOS_001.coverage" NAME="Unittest SettingRelated.test_baseOS_001 Coverage Results" MODIFIED="1573038903601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$05_Gmail.coverage" NAME="05_Gmail Coverage Results" MODIFIED="1574662717441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_model_001.coverage" NAME="Unittest SettingRelated.test_model_001 Coverage Results" MODIFIED="1573030988650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_APK_Check_007.coverage" NAME="Unittest SettingRelated.test_APK_Check_007 Coverage Results" MODIFIED="1573111025862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_APK_Check_004.coverage" NAME="Unittest SettingRelated.test_APK_Check_004 Coverage Results" MODIFIED="1573109169558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1584087298880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1584426136802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$22_SettingsStatusbar.coverage" NAME="22_SettingsStatusbar Coverage Results" MODIFIED="1584502345584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$music.coverage" NAME="music Coverage Results" MODIFIED="1584089099173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_06_Browser_py.coverage" NAME="Unittests in 06_Browser.py Coverage Results" MODIFIED="1584341794235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$05_Gmail.coverage" NAME="05_Gmail Coverage Results" MODIFIED="1584409507736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_APK_Check_002.coverage" NAME="Unittest SettingRelated.test_APK_Check_002 Coverage Results" MODIFIED="1573108405973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_TestGoogleReq_test_006_verify_store_search_location.coverage" NAME="Unittest TestGoogleReq.test_006_verify_store_search_location Coverage Results" MODIFIED="1573126457218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-PRO$Unittest_PreSetUp_test_0_prepare_all_device.coverage" NAME="Unittest PreSetUp.test_0_prepare_all_device Coverage Results" MODIFIED="1576133397588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_04_Messaging_py.coverage" NAME="Unittests in 04_Messaging.py Coverage Results" MODIFIED="1584348082085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-PRO$17_FileManager.coverage" NAME="17_FileManager Coverage Results" MODIFIED="1581559650086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$05_Gmail.coverage" NAME="05_Gmail Coverage Results" MODIFIED="1569551782892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$19_Gallery.coverage" NAME="19_Gallery Coverage Results" MODIFIED="1584496520100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$common.coverage" NAME="common Coverage Results" MODIFIED="1583898637265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/T1_Stability$Unittest_PreSetUp_test_0_prepare_all_device.coverage" NAME="Unittest PreSetUp.test_0_prepare_all_device Coverage Results" MODIFIED="1569393154579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$23_Lockscreen_Launcher_.coverage" NAME="23_Lockscreen(Launcher) Coverage Results" MODIFIED="1575259467203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_SAR_001.coverage" NAME="Unittest SettingRelated.test_SAR_001 Coverage Results" MODIFIED="1573111713024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Hidden_Code_005.coverage" NAME="Unittest SettingRelated.test_Hidden_Code_005 Coverage Results" MODIFIED="1573096229688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$message.coverage" NAME="message Coverage Results" MODIFIED="1584349759499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_TestGoogleReq_test_003_google_now.coverage" NAME="Unittest TestGoogleReq.test_003_google_now Coverage Results" MODIFIED="1573117919001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-PRO$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1577362751778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$14_GoogleMaps_Interrupt.coverage" NAME="14_GoogleMaps_Interrupt Coverage Results" MODIFIED="1569582395734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$01_Telephony.coverage" NAME="01_Telephony Coverage Results" MODIFIED="1584347757421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittests_in_00_setup.coverage" NAME="Unittests in 00_setup Coverage Results" MODIFIED="1573180099453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$10_Recorder.coverage" NAME="10_Recorder Coverage Results" MODIFIED="1584410799641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$12_Camera.coverage" NAME="12_Camera Coverage Results" MODIFIED="1584413872939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Debug_Property_003.coverage" NAME="Unittest SettingRelated.test_Debug_Property_003 Coverage Results" MODIFIED="1573104323993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1575257845843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10_Stability$15_Menu_Navigation.coverage" NAME="15_Menu_Navigation Coverage Results" MODIFIED="1569736547858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_TestGoogleReq_test_006_Default_Home_Screen_Layout.coverage" NAME="Unittest TestGoogleReq.test_006_Default_Home_Screen_Layout Coverage Results" MODIFIED="1573127048585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$07_StoreFront_Download.coverage" NAME="07_StoreFront_Download Coverage Results" MODIFIED="1575259484598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$12_Camera.coverage" NAME="12_Camera Coverage Results" MODIFIED="1569547013780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$00_setup.coverage" NAME="00_setup Coverage Results" MODIFIED="1572937775171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$flash_devices.coverage" NAME="flash_devices Coverage Results" MODIFIED="1584955031887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Debug_Property_002.coverage" NAME="Unittest SettingRelated.test_Debug_Property_002 Coverage Results" MODIFIED="1573098253109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$15_Menu_Navigation.coverage" NAME="15_Menu_Navigation Coverage Results" MODIFIED="1584428301771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$14_GoogleMaps_Interrupt.coverage" NAME="14_GoogleMaps_Interrupt Coverage Results" MODIFIED="1584427989561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$06_Browser.coverage" NAME="06_Browser Coverage Results" MODIFIED="1572869534521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_01_Telephony_py.coverage" NAME="Unittests in 01_Telephony.py Coverage Results" MODIFIED="1584345943790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$11_MusicPlayer.coverage" NAME="11_MusicPlayer Coverage Results" MODIFIED="1569582681460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$19_Gallery.coverage" NAME="19_Gallery Coverage Results" MODIFIED="1573527407717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10_Stability$22_SettingsStatusbar.coverage" NAME="22_SettingsStatusbar Coverage Results" MODIFIED="1569736292194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$01_Telephony.coverage" NAME="01_Telephony Coverage Results" MODIFIED="1575266674132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$camera.coverage" NAME="camera Coverage Results" MODIFIED="1574678202182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_05_Gmail_py.coverage" NAME="Unittests in 05_Gmail.py Coverage Results" MODIFIED="1584409036179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-PRO$13_WifiHotspot.coverage" NAME="13_WifiHotspot Coverage Results" MODIFIED="1576807541551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/endurance" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$uiautomator.coverage" NAME="uiautomator Coverage Results" MODIFIED="1583909275650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/automator" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_SVN_001.coverage" NAME="Unittest SettingRelated.test_SVN_001 Coverage Results" MODIFIED="1573040929838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-10$10_Recorder.coverage" NAME="10_Recorder Coverage Results" MODIFIED="1575256902327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_API_001.coverage" NAME="Unittest SettingRelated.test_API_001 Coverage Results" MODIFIED="1573094188576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$07_StoreFront_Download.coverage" NAME="07_StoreFront_Download Coverage Results" MODIFIED="1584927750614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-PRO$05_Gmail.coverage" NAME="05_Gmail Coverage Results" MODIFIED="1578547011560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$06_Browser.coverage" NAME="06_Browser Coverage Results" MODIFIED="1569583331831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1569547409118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10_Stability$12_Camera.coverage" NAME="12_Camera Coverage Results" MODIFIED="1569727286547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Hidden_Code_004.coverage" NAME="Unittest SettingRelated.test_Hidden_Code_004 Coverage Results" MODIFIED="1573095891273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
+    <SUITE FILE_PATH="coverage/T1-PRO$9_DualSim.coverage" NAME="9_DualSim Coverage Results" MODIFIED="1576759635409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/endurance" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$browser.coverage" NAME="browser Coverage Results" MODIFIED="1584359913168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/T1-PRO$01_Telephony.coverage" NAME="01_Telephony Coverage Results" MODIFIED="1575870361700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$04_Messaging.coverage" NAME="04_Messaging Coverage Results" MODIFIED="1584349882759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$06_Browser.coverage" NAME="06_Browser Coverage Results" MODIFIED="1584360281042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_16_Wifi_py.coverage" NAME="Unittests in 16_Wifi.py Coverage Results" MODIFIED="1584342276629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1_Stability$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1569550187979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_07_StoreFront_Download_py.coverage" NAME="Unittests in 07_StoreFront_Download.py Coverage Results" MODIFIED="1584927743161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$message.coverage" NAME="message Coverage Results" MODIFIED="1572939151517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/T1_Stability$23_Lockscreen_Launcher_.coverage" NAME="23_Lockscreen(Launcher) Coverage Results" MODIFIED="1569556058159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/T1-10$Unittests_in_PreSetUp.coverage" NAME="Unittests in PreSetUp Coverage Results" MODIFIED="1572939466043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="trunk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jankiness/jankiness_base.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configure/common.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1518">
+              <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stability/07_StoreFront_Download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/playstore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="168" column="53" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="168" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Tasking</find>
+      <find>open_quick_wifi</find>
+      <find>797, 1304</find>
+      <find>_click_and_log</find>
+      <find>NOT exists</find>
+      <find>copy and</find>
+      <find>click_text</find>
+      <find>click_text_DELETE</find>
+      <find>_del</find>
+      <find>click_text_SAVE</find>
+      <find>FAIL</find>
+      <find>CREATE location</find>
+      <find>ERROR</find>
+      <find>lower()</find>
+      <find>back_to</find>
+      <find>GAWKFQT8WGL7L7S8</find>
+      <find>Fail</find>
+      <find>del_bookmark</find>
+      <find>des</find>
+      <find>mess</find>
+      <find>call_btn.click</find>
+      <find>.open_quick_</find>
+      <find>ssid</find>
+      <find>del_mediafiles_in_gallery</find>
+      <find>get_sdk</find>
+      <find>get sdk</find>
+      <find>self.version</find>
+      <find>enter %s password</find>
+      <find>fastboot</find>
+      <find>excel</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mpChecklist/01_googleReq.py" />
+        <option value="$PROJECT_DIR$/stability/19_Gallery.py" />
+        <option value="$PROJECT_DIR$/common/gallery.py" />
+        <option value="$PROJECT_DIR$/stability/10_Recorder.py" />
+        <option value="$PROJECT_DIR$/common/yt_music.py" />
+        <option value="$PROJECT_DIR$/stability/23_Lockscreen(Launcher).py" />
+        <option value="$PROJECT_DIR$/stability/07_StoreFront_Download.py" />
+        <option value="$PROJECT_DIR$/common/configs.py" />
+        <option value="$PROJECT_DIR$/configure/Endurance.ini" />
+        <option value="$PROJECT_DIR$/endurance/9_DualSim.py" />
+        <option value="$PROJECT_DIR$/endurance/13_WifiHotspot.py" />
+        <option value="$PROJECT_DIR$/configure/Endurance_mini.ini" />
+        <option value="$PROJECT_DIR$/stability/05_Gmail.py" />
+        <option value="$PROJECT_DIR$/automator/adb.py" />
+        <option value="$PROJECT_DIR$/automator/uiautomator.py" />
+        <option value="$PROJECT_DIR$/common/music.py" />
+        <option value="$PROJECT_DIR$/common/Google_music.py" />
+        <option value="$PROJECT_DIR$/common/contacts.py" />
+        <option value="$PROJECT_DIR$/common/chrome.py" />
+        <option value="$PROJECT_DIR$/configure/Mini_2G3GLTE.ini" />
+        <option value="$PROJECT_DIR$/configure/device.ini" />
+        <option value="$PROJECT_DIR$/stability/01_Telephony.py" />
+        <option value="$PROJECT_DIR$/common/message.py" />
+        <option value="$PROJECT_DIR$/stability/06_Browser.py" />
+        <option value="$PROJECT_DIR$/common/schedule.py" />
+        <option value="$PROJECT_DIR$/stability/09_PIM.py" />
+        <option value="$PROJECT_DIR$/common/recorder.py" />
+        <option value="$PROJECT_DIR$/common/gmail.py" />
+        <option value="$PROJECT_DIR$/stability/11_MusicPlayer.py" />
+        <option value="$PROJECT_DIR$/common/native_music.py" />
+        <option value="$PROJECT_DIR$/stability/12_Camera.py" />
+        <option value="$PROJECT_DIR$/common/interrupt.py" />
+        <option value="$PROJECT_DIR$/common/camera.py" />
+        <option value="$PROJECT_DIR$/common/common.py" />
+        <option value="$PROJECT_DIR$/common/filemanager_tcl.py" />
+        <option value="D:/Program Files/feiq/Recv Files/steps.properties" />
+        <option value="$PROJECT_DIR$/common/statusbar.py" />
+        <option value="$PROJECT_DIR$/common/settings.py" />
+        <option value="$PROJECT_DIR$/stability/22_SettingsStatusbar.py" />
+        <option value="$PROJECT_DIR$/stability/13_Multi_Tasking.py" />
+        <option value="$PROJECT_DIR$/stability/04_Messaging.py" />
+        <option value="$PROJECT_DIR$/common/base_test_case.py" />
+        <option value="$PROJECT_DIR$/common/browser.py" />
+        <option value="$PROJECT_DIR$/common/telephony.py" />
+        <option value="$PROJECT_DIR$/configure/common.ini" />
+        <option value="$PROJECT_DIR$/stability/00_setup.py" />
+        <option value="$PROJECT_DIR$/common/screen.py" />
+        <option value="$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py" />
+        <option value="$PROJECT_DIR$/jankiness/black_berry_launcher_jankiness.py" />
+        <option value="$PROJECT_DIR$/flash_devices.py" />
+        <option value="$PROJECT_DIR$/common/playstore.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="183" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="193" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="197" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="75" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="934" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="923" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="312" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="323" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="325" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="311" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="311" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="916" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="T1-10" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="T1-10" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SVN\TATScripts\T1-10\mpChecklist\test_file" />
+      <recent name="D:\SVN\TATScripts\T1-10\mpChecklist" />
+      <recent name="D:\SVN\TATScripts\T1-10\common" />
+      <recent name="D:\SVN\TATScripts\T1-10\automator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SVN\TATScripts\T1-10\mpChecklist" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.flash_devices">
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="params" value="" />
+      <option name="useTestCodePath" value="false" />
+      <option name="workDirectory" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="true" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="trunk" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_StoreFront_Download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/07_StoreFront_Download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="23_Lockscreen_Launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flash_devices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flash_devices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in 00_setup.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stability/00_setup.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in 07_StoreFront_Download.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stability/07_StoreFront_Download.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="trunk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.23_Lockscreen_Launcher" />
+      <item itemvalue="Python.07_StoreFront_Download" />
+      <item itemvalue="Python.flash_devices" />
+      <item itemvalue="Python tests.Unittests in 00_setup.py" />
+      <item itemvalue="Python tests.Unittests in 07_StoreFront_Download.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.flash_devices" />
+        <item itemvalue="Python.23_Lockscreen_Launcher" />
+        <item itemvalue="Python.07_StoreFront_Download" />
+        <item itemvalue="Python tests.Unittests in 07_StoreFront_Download.py" />
+        <item itemvalue="Python tests.Unittests in 00_setup.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yongjie.lin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12e5b499-fbb7-450a-92fc-bafb8248996b" name="Default" comment="" />
+      <created>1565171059436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565171059436</updated>
+      <workItem from="1583892826210" duration="29000" />
+      <workItem from="1583893412029" duration="10372000" />
+      <workItem from="1583914649638" duration="13000" />
+      <workItem from="1583978799973" duration="1145000" />
+      <workItem from="1583980182003" duration="15683000" />
+      <workItem from="1584240087214" duration="70728000" />
+      <workItem from="1584601578425" duration="118000" />
+      <workItem from="1584603887279" duration="823000" />
+      <workItem from="1584606338389" duration="166000" />
+      <workItem from="1584606883743" duration="5678000" />
+      <workItem from="1584687818374" duration="929000" />
+      <workItem from="1584925813794" duration="4711000" />
+      <workItem from="1584954486297" duration="3318000" />
+      <workItem from="1584961792999" duration="657000" />
+      <workItem from="1585533207560" duration="23000" />
+      <workItem from="1585555572528" duration="1435000" />
+      <workItem from="1585705326472" duration="760000" />
+    </task>
+    <task id="LOCAL-00034" summary="fix filemanager message music">
+      <created>1572863331370</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1572863331370</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix browser">
+      <created>1572868806150</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1572868806150</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix recorder">
+      <created>1572874343274</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1572874343274</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix recorder">
+      <created>1572874745017</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1572874745017</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix pre-setup">
+      <created>1572943253375</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1572943253375</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add stability-resource">
+      <created>1572943336638</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1572943336638</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix pre-setup">
+      <created>1572943346855</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1572943346855</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fix pre-setup">
+      <created>1572950250785</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1572950250785</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix pre-setup">
+      <created>1572953523213</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1572953523213</updated>
+    </task>
+    <task id="LOCAL-00043" summary="预配置步骤">
+      <created>1573005704158</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1573005704158</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix mpchecklist">
+      <created>1573031164159</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1573031164159</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix mpchecklist">
+      <created>1573527382694</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1573527382694</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix gallery">
+      <created>1573527397131</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1573527397131</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix camera ,enter settings menu">
+      <created>1574057606398</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1574057606398</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix gmail">
+      <created>1574073459324</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1574073459324</updated>
+    </task>
+    <task id="LOCAL-00049" summary="LIB_PATH需要写在最前面，否则用TAT Client跑脚本会有问题">
+      <created>1574229194929</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1574229194929</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix T1-PRO 4D20 &#10;record">
+      <created>1574299684515</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1574299684515</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix T1-PRO 4D20 &#10;gmail">
+      <created>1574303899711</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1574303899711</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix gmail and recorder /T1-Q">
+      <created>1574674507844</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1574674507845</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix camera">
+      <created>1574677817972</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1574677817972</updated>
+    </task>
+    <task id="LOCAL-00054" summary="T1 Q-2B2S">
+      <created>1575249967902</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1575249967916</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix telephone module&#10;sw:4D2D">
+      <created>1575256555278</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1575256555278</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix  yt_music module&#10;sw:4D2D">
+      <created>1575257824667</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1575257824667</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix  multi-tasking module&#10;sw:4D2D">
+      <created>1575258336664</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1575258336664</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix  lock_screen module&#10;sw:4D2D">
+      <created>1575259617658</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1575259617658</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix telephone module&#10;sw:4D2D">
+      <created>1575266694970</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1575266694970</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Configure phone number&#10;T1-PRO US">
+      <created>1575451874321</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1575451874321</updated>
+    </task>
+    <task id="LOCAL-00061" summary="description: call sdevice phone number&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575456814732</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1575456814732</updated>
+    </task>
+    <task id="LOCAL-00062" summary="description: send sms/mms to sdevice&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575460072556</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1575460072556</updated>
+    </task>
+    <task id="LOCAL-00063" summary="description: multi-tasking&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575464906312</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1575464906312</updated>
+    </task>
+    <task id="LOCAL-00064" summary="description: disable testJank at Browser module&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575511967270</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1575511967270</updated>
+    </task>
+    <task id="LOCAL-00065" summary="description: fix Message, set location to CHINA&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575517576156</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1575517576156</updated>
+    </task>
+    <task id="LOCAL-00066" summary="description: add Pre-configured.docx&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575517664270</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1575517664270</updated>
+    </task>
+    <task id="LOCAL-00067" summary="description: fix test_Jank&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575546058266</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1575546058266</updated>
+    </task>
+    <task id="LOCAL-00068" summary="description: fix telephony module script bug&#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H">
+      <created>1575870587328</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1575870587328</updated>
+    </task>
+    <task id="LOCAL-00069" summary="description: fix gmail, delete the mail when it send failed&#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D">
+      <created>1575877753067</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1575877753067</updated>
+    </task>
+    <task id="LOCAL-00070" summary="description: fix gmail, the 'Auto-korea' hot spot often fail,so close the wifi for testing &#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H">
+      <created>1576030320340</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1576030320340</updated>
+    </task>
+    <task id="LOCAL-00071" summary="description: Improve pre-configuration scripts '00-setup.py'&#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H">
+      <created>1576133860852</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1576133860852</updated>
+    </task>
+    <task id="LOCAL-00072" summary="description: check full ramdump&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H">
+      <created>1576466092536</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1576466092537</updated>
+    </task>
+    <task id="LOCAL-00073" summary="description: fix DualSim&#10;site: CHINA&#10;project: T1-PRO/Endurance&#10;author: zhouwei&#10;version: 4D2U">
+      <created>1576808013367</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1576808013408</updated>
+    </task>
+    <task id="LOCAL-00074" summary="description: fix WifiHotSpot&#10;site: CHINA&#10;project: T1-PRO/Endurance&#10;author: zhouwei&#10;version: 4D2U">
+      <created>1576808076220</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1576808076220</updated>
+    </task>
+    <task id="LOCAL-00075" summary="description: fix Camera&#10;site: CHINA&#10;project: T1-PRO/Endurance&#10;author: zhouwei&#10;version: 4D2U">
+      <created>1576921948148</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1576921948159</updated>
+    </task>
+    <task id="LOCAL-00076" summary="description: update wifi password&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2U">
+      <created>1577172725558</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1577172725558</updated>
+    </task>
+    <task id="LOCAL-00077" summary="description: update wifi security&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30">
+      <created>1577270709709</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1577270709727</updated>
+    </task>
+    <task id="LOCAL-00078" summary="description: fix gmail&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30">
+      <created>1577271910430</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1577271910430</updated>
+    </task>
+    <task id="LOCAL-00079" summary="description: fix muti-tasking&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30">
+      <created>1577362854477</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1577362854477</updated>
+    </task>
+    <task id="LOCAL-00080" summary="description: fix gmail&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30">
+      <created>1577363665731</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1577363665731</updated>
+    </task>
+    <task id="LOCAL-00081" summary="description: fix gmail, delete multiple emails at once&#10;site: CHINA&amp;US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D3I">
+      <created>1578547467616</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1578547467628</updated>
+    </task>
+    <task id="LOCAL-00082" summary="description: fix Browser,&#10;site: CHINA&amp;US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D3I">
+      <created>1578554710719</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1578554710719</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_04_Messaging_py - 2020.03.16 at 16h 41m 17s.xml">
+      <configuration name="Unittests in 04_Messaging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_04_Messaging_py - 2020.03.16 at 16h 41m 22s.xml">
+      <configuration name="Unittests in 04_Messaging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_05_Gmail_py - 2020.03.17 at 09h 37m 16s.xml">
+      <configuration name="Unittests in 05_Gmail.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_00_setup_py - 2020.03.18 at 15h 23m 15s.xml">
+      <configuration name="Unittests in 00_setup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_00_setup_py - 2020.03.19 at 18h 28m 06s.xml">
+      <configuration name="Unittests in 00_setup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_00_setup_py - 2020.03.19 at 18h 43m 55s.xml">
+      <configuration name="Unittests in 00_setup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_00_setup_py - 2020.03.19 at 19h 36m 19s.xml">
+      <configuration name="Unittests in 00_setup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_00_setup_py - 2020.03.19 at 19h 53m 46s.xml">
+      <configuration name="Unittests in 00_setup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_00_setup_py - 2020.03.19 at 20h 16m 24s.xml">
+      <configuration name="Unittests in 00_setup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_07_StoreFront_Download_py - 2020.03.23 at 09h 42m 23s.xml">
+      <configuration name="Unittests in 07_StoreFront_Download.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="116588000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.26865673" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5081967" side_tool="true" weight="0.25933075" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38586956" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497426" weight="0.3070078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38153505" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32814237" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.497426" weight="0.2814238" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26222825" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502574" side_tool="true" weight="0.375" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" sideWeight="0.496139" weight="0.4794216" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32880434" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.28784648" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5081967" side_tool="true" weight="0.25933075" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38586956" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497426" weight="0.30706522" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38153505" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32880434" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.497426" weight="0.2814238" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26222825" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502574" side_tool="true" weight="0.375" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" sideWeight="0.496139" weight="0.47961956" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32880434" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix  multi-tasking module&#10;sw:4D2D" />
+    <MESSAGE value="fix  lock_screen module&#10;sw:4D2D" />
+    <MESSAGE value="fix telephone module&#10;sw:4D2D" />
+    <MESSAGE value="Configure phone number&#10;T1-PRO US" />
+    <MESSAGE value="description: call sdevice phone number&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: send sms/mms to sdevice&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: multi-tasking&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: disable testJank at Browser module&#10;site: US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: fix Message, set location to CHINA&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: add Pre-configured.docx&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: fix test_Jank&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: fix telephony module script bug&#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H" />
+    <MESSAGE value="description: fix gmail, delete the mail when it send failed&#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2D" />
+    <MESSAGE value="description: fix gmail, the 'Auto-korea' hot spot often fail,so close the wifi for testing &#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H" />
+    <MESSAGE value="description: Improve pre-configuration scripts '00-setup.py'&#10;site: CHINA &amp; US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H" />
+    <MESSAGE value="description: check full ramdump&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2H" />
+    <MESSAGE value="description: fix DualSim&#10;site: CHINA&#10;project: T1-PRO/Endurance&#10;author: zhouwei&#10;version: 4D2U" />
+    <MESSAGE value="description: fix WifiHotSpot&#10;site: CHINA&#10;project: T1-PRO/Endurance&#10;author: zhouwei&#10;version: 4D2U" />
+    <MESSAGE value="description: fix Camera&#10;site: CHINA&#10;project: T1-PRO/Endurance&#10;author: zhouwei&#10;version: 4D2U" />
+    <MESSAGE value="description: update wifi password&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D2U" />
+    <MESSAGE value="description: update wifi security&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30" />
+    <MESSAGE value="description: fix muti-tasking&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30" />
+    <MESSAGE value="description: fix gmail&#10;site: CHINA&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D30" />
+    <MESSAGE value="description: fix gmail, delete multiple emails at once&#10;site: CHINA&amp;US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D3I" />
+    <MESSAGE value="description: fix Browser,&#10;site: CHINA&amp;US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D3I" />
+    <option name="LAST_COMMIT_MESSAGE" value="description: fix Browser,&#10;site: CHINA&amp;US&#10;project: T1-PRO&#10;author: zhouwei&#10;version: 4D3I" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/common/chrome.py</url>
+          <line>605</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/common/chrome.py</url>
+          <line>586</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/common/chrome.py</url>
+          <line>589</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/tasking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure/appinfo.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2332">
+          <caret line="387" column="38" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/interrupt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/14_GoogleMaps_Interrupt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/15_Menu_Navigation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/filemanager_tcl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/filemanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="176" column="41" lean-forward="true" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/feiq/Recv Files/steps.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/17_FileManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/statusbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gallery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="95" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/22_SettingsStatusbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/13_Multi_Tasking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/04_Messaging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/recorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="257" column="18" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/gmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="340" column="33" lean-forward="true" selection-start-line="340" selection-start-column="33" selection-end-line="340" selection-end-column="33" />
+          <folding>
+            <element signature="e#46#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/native_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/music_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/yt_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/blackberryapps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/bbm.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/google_music.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure/Stability_2G3GLTE.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure/Mini_2G3GLTE.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/19_Gallery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2354">
+          <caret line="112" column="76" selection-start-line="112" selection-start-column="76" selection-end-line="112" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12474">
+          <caret line="570" column="23" selection-start-line="570" selection-start-column="23" selection-end-line="570" selection-end-column="23" />
+          <folding>
+            <element signature="e#51#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14256">
+          <caret line="654" column="69" selection-start-line="654" selection-start-column="69" selection-end-line="654" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/01_Telephony.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base_test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+          <folding>
+            <element signature="e#46#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/16_Wifi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="74" column="99" selection-start-line="74" selection-start-column="90" selection-end-line="74" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/telephony.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
+          <folding>
+            <element signature="e#62#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure/device.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/00_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automator/uiautomator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7612">
+          <caret line="358" column="19" selection-start-line="358" selection-start-column="19" selection-end-line="358" selection-end-column="19" />
+          <folding>
+            <element signature="e#126#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automator/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jankiness/chrome_jankiness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/tempfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5786">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3058">
+          <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flash_devices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jankiness/black_berry_launcher_jankiness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jankiness/gmail_jankiness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jankiness/jankiness_base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure/common.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/07_StoreFront_Download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/playstore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="168" column="53" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="168" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

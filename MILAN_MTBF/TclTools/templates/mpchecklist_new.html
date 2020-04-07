@@ -1,0 +1,662 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!--say hello-->
+<!--MP checklist result-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>MP checklist result *V1.4*</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    <!--Title-->
+    <tr bgcolor="#21C5ED">
+        <td><b>Test Number</b></td>
+        <td><b>Item</b></td>
+        <td><b>Pass/Fail</b></td>
+        <td><b>Result</b></td>
+        <td><b>Screenshot</b></td>
+    </tr>
+    <!--0. Fingerprint、Model-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">0. Fingerprint、Model</td>
+    </tr>
+    <tr>
+        <td>Fingerprint_001</td>
+        <td>Fingerprint_adb shell getprop ro.build.fingerprint</td>
+        <td>{Fingerprint_001_pof}</td>
+        <td>{Fingerprint_001_ret}</td>
+        <td>{Fingerprint_001_ss}</td>
+    </tr>
+    <tr>
+        <td>Model_001</td>
+        <td>Model_*#837837#</td>
+        <td>{Model_001_pof}</td>
+        <td>{Model_001_ret}</td>
+        <td>{Model_001_ss}</td>
+    </tr>
+    <tr>
+        <td>BaseOS_001</td>
+        <td>adb shell getprop ro.build.version.base_os</td>
+        <td>{BaseOS_001_pof}</td>
+        <td>{BaseOS_001_ret}</td>
+        <td>非SMR为空，SMR软件值为ProductName</td>
+    </tr>
+    <!--1. UA Profile-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">1. UA Profile</td>
+    </tr>
+    <tr>
+        <td>UA_001</td>
+        <td>UA profile(browse, MMS)</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <!--2. SVN、API-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">2. SVN、API</td>
+    </tr>
+    <tr>
+        <td>SVN_001</td>
+        <td>SVN</td>
+        <td>{SVN_001_pof}</td>
+        <td>{SVN_001_ret}</td>
+        <td>{SVN_001_ss}</td>
+    </tr>
+    <tr>
+        <td>API_001</td>
+        <td>API</td>
+        <td>{API_001_pof}</td>
+        <td>{API_001_ret}</td>
+        <td>{API_001_ss}</td>
+    </tr>
+    <!--3. Hidden Code-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">3. Hidden Code</td>
+    </tr>
+    <tr>
+        <td>Hidden Code_001</td>
+        <td>*#*#0574#*#*_log Closed</td>
+        <td>{Hidden Code_001_pof}</td>
+        <td>{Hidden Code_001_ret}</td>
+        <td>{Hidden Code_001_ss}</td>
+    </tr>
+    <tr>
+        <td>Hidden Code_002</td>
+        <td>*#*#2887#*#*_no Changes</td>
+        <td>{Hidden Code_002_pof}</td>
+        <td>{Hidden Code_002_ret}</td>
+        <td>{Hidden Code_002_ss}</td>
+    </tr>
+    <tr>
+        <td>Hidden Code_003</td>
+        <td>##782#_Version Information</td>
+        <td>{Hidden Code_002_pof}</td>
+        <td>{Hidden Code_003_ret}</td>
+        <td>{Hidden Code_003_ss}</td>
+    </tr>
+    <tr>
+        <td>Hidden Code_004</td>
+        <td>###666#_no Changes</td>
+        <td>{Hidden Code_004_pof}</td>
+        <td>{Hidden Code_004_ret}</td>
+        <td>{Hidden Code_004_ss}</td>
+    </tr>
+    <tr>
+        <td>Hidden Code_005</td>
+        <td>*#*#212018#*#*_no Changes</td>
+        <td>{Hidden Code_005_pof}</td>
+        <td>{Hidden Code_005_ret}</td>
+        <td>{Hidden Code_005_ss}</td>
+    </tr>
+    <tr>
+        <td>Hidden Code_006</td>
+        <td>*#2886#_Version Information</td>
+        <td>{Hidden Code_006_pof}</td>
+        <td>{Hidden Code_006_ret}</td>
+        <td>{Hidden Code_006_ss}</td>
+    </tr>
+    <!--4. Debug Property (persist_sys_dload_enable, crash, log, root) -->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">4. Debug Property (persist_sys_dload_enable, crash, log, root)</td>
+    </tr>
+    <tr>
+        <td>Debug Property_001</td>
+        <td></td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Debug Property_002</td>
+        <td>Check SDM_Install boom.apk</td>
+        <td>{Debug Property_002_pof}</td>
+        <td>{Debug Property_002_ret}</td>
+        <td>{Debug Property_002_ss}</td>
+    </tr>
+    <tr>
+        <td>Debug Property_003</td>
+        <td>Check Stagefright_Install Stagefright Detector.apk</td>
+        <td>{Debug Property_003_pof}</td>
+        <td>{Debug Property_003_ret}</td>
+        <td>{Debug Property_003_ss}</td>
+    </tr>
+    <!--<tr>-->
+    <!--<td>Debug Property_004</td>-->
+    <!--<td>ADB log_Disable</td>-->
+    <!--<td>{Debug Property_004_ret}</td>-->
+    <!--<td>{Debug Property_004_ss}</td>-->
+    <!--</tr>-->
+    <!--5. APK Check (APKs list to have, APKs to remove)-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">5. APK Check (APKs list to have, APKs to remove)</td>
+    </tr>
+    <tr>
+        <td>APK Check_001</td>
+        <td>Check 3rd APK list</td>
+        <td>{APK Check_001_pof}</td>
+        <td>{APK Check_001_ret}</td>
+        <td>{APK Check_001_ss}</td>
+    </tr>
+    <tr>
+        <td>APK Check_002</td>
+        <td>StabilityMonitor APK_Removed</td>
+        <td>{APK Check_002_pof}</td>
+        <td>{APK Check_002_ret}</td>
+        <td>{APK Check_002_ss}</td>
+    </tr>
+    <tr>
+        <td>APK Check_003</td>
+        <td>OneTouchFeedback and SafeGuard APK_Removed</td>
+        <td>{APK Check_003_pof}</td>
+        <td>{APK Check_003_ret}</td>
+        <td>{APK Check_003_ss}</td>
+    </tr>
+    <tr>
+        <td>APK Check_004</td>
+        <td>Insert CN SIM Cards_GMS APK Enabled</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>APK Check_005</td>
+        <td>ddt.tkn OFF_Battery log APK Removed</td>
+        <td>{APK Check_005_pof}</td>
+        <td>{APK Check_005_ret}</td>
+        <td>{APK Check_005_ss}</td>
+    </tr>
+    <tr>
+        <td>APK Check_006</td>
+        <td>Check support center</td>
+        <td>{APK Check_006_pof}</td>
+        <td>{APK Check_006_ret}</td>
+        <td>{APK Check_006_ss}</td>
+    </tr>
+    <tr>
+        <td>APK Check_007</td>
+        <td>Remove Robust from MP Branch</td>
+        <td>{APK Check_007_pof}</td>
+        <td>{APK Check_007_ret}</td>
+        <td>{APK Check_007_ss}</td>
+    </tr>
+    <!--6. QXDM: ASDiv, SAR, -->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">6. QXDM: ASDiv, SAR,</td>
+    </tr>
+    <tr>
+        <td>ASDiv_001</td>
+        <td>Enable ASDive_ Hidden</td>
+        <td>{ASDiv_001_pof}</td>
+        <td>{ASDiv_001_ret}</td>
+        <td>{ASDiv_001_ss}</td>
+    </tr>
+    <tr>
+        <td>ASDiv_002</td>
+        <td>ASDiv_Opened</td>
+        <td>{ASDiv_002_pof}</td>
+        <td>{ASDiv_002_ret}</td>
+        <td>{ASDiv_002_ss}</td>
+    </tr>
+    <tr>
+        <td>SAR_001</td>
+        <td>Enable SAR</td>
+        <td>{SAR_001_pof}</td>
+        <td>{SAR_001_ret}</td>
+        <td>{SAR_001_ss}</td>
+    </tr>
+    <!--7. Settings: System Update, Accessability, USB Debug-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">7. Settings: System Update, Accessability, USB Debug</td>
+    </tr>
+    <tr>
+        <td>Settings_001</td>
+        <td>#*debugmode*#open_USB Debug OFF</td>
+        <td>{Settings_001_pof}</td>
+        <td>{Settings_001_ret}</td>
+        <td>{Settings_001_ss}</td>
+    </tr>
+    <tr>
+        <td>Settings_002</td>
+        <td>System update_Removed</td>
+        <td>{Settings_002_pof}</td>
+        <td>{Settings_002_ret}</td>
+        <td>{Settings_002_ss}</td>
+    </tr>
+    <tr>
+        <td>Settings_003</td>
+        <td>HAC Item_Check</td>
+        <td>{Settings_003_pof}</td>
+        <td>{Settings_003_ret}</td>
+        <td>{Settings_003_ss}</td>
+    </tr>
+    <tr>
+        <td>Settings_004</td>
+        <td>Remove navigation gesture from developer option</td>
+        <td>{Settings_004_pof}</td>
+        <td>{Settings_004_ret}</td>
+        <td>{Settings_004_ss}</td>
+    </tr>
+    <!--8. Setup Wizard-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">8. Setup Wizard</td>
+    </tr>
+    <tr>
+        <td>Setup Wizard_001</td>
+        <td>Remove Skip Setup Wizard connect WiFi step </td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <!--9. Google & DCM-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">9. Google & DCM</td>
+    </tr>
+    <tr>
+        <td>Google_001</td>
+        <td>Google Checklist</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Google_002</td>
+        <td>CN GMS_removed</td>
+        <td>{Google_002_pof}</td>
+        <td>{Google_002_ret}</td>
+        <td>{Google_002_ss}</td>
+    </tr>
+    <tr>
+        <td>DCM_001</td>
+        <td>13_DCM Test</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <!--10. E-label-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">10. E-label</td>
+    </tr>
+    <tr>
+        <td>E-label_001</td>
+        <td>E-label_Check</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <!--11. Carrier Requirements-->
+    <tr bgcolor="#cfcfcf">
+        <td colspan="5">11. Carrier Requirements</td>
+    </tr>
+    <tr>
+        <td>Carrier_001</td>
+        <td>Vodafone: VVS</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_002</td>
+        <td>Canada: BELL(Bell, MTS, SaskTel), TELUS, ROGERS(Rogers, Fido)</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_003</td>
+        <td>Orange: Orange France, Orange Poland, Orange Romania</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_004</td>
+        <td>H3G</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_005</td>
+        <td>Bitel Peru</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_006</td>
+        <td>Claro: Claro Brazil, Claro Chile, Claro Dominican, Claro Colombia, Claro Peru</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_007</td>
+        <td>Personal Argentina</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_008</td>
+        <td>Telefonica: Telefonica Brazil, Telefonica Chile, Telefonica Peru</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_009</td>
+        <td>Mexico Telcel</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_010</td>
+        <td>Australia</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_011</td>
+        <td>ATT</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_012</td>
+        <td>Korea</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_013</td>
+        <td>Sprint</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Carrier_014</td>
+        <td>Indonsia</td>
+        <td></td>
+        <td><p style='color:#FF0000'>Manual Test</p></td>
+        <td></td>
+    </tr>
+</table>
+<!--Google checklist result-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Google checklist result *V2.1.1*</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    <!--Title-->
+    <tr bgcolor="#21C5ED">
+        <td><b>Test Number</b></td>
+        <td><b>Item</b></td>
+        <td></td>
+        <td><b>Result</b></td>
+        <td><b>Screenshot</b></td>
+    </tr>
+    <tr>
+        <td>Case_001</td>
+        <td>No HW issue</td>
+        <td></td>
+        <td>NA</td>
+        <td>NA</td>
+    </tr>
+    <tr>
+        <td>Case_002</td>
+        <td>Bootlogo</td>
+        <td></td>
+        <td>NA</td>
+        <td>NA</td>
+    </tr>
+    <tr>
+        <td>Case_003</td>
+        <td>Google Now</td>
+        <td></td>
+        <td>{Case_003_ret}</td>
+        <td>{Case_003_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_004</td>
+        <td>Geo match</td>
+        <td></td>
+        <td>{Case_004_ret}</td>
+        <td>{Case_004_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_005</td>
+        <td>Setup Wizard</td>
+        <td></td>
+        <td>NA</td>
+        <td>NA</td>
+    </tr>
+    <tr>
+        <td>Case_006</td>
+        <td>Play store, Google Search</td>
+        <td>{Case_006_pof}</td>
+        <td>{Case_006_ret}</td>
+        <td>{Case_006_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_007</td>
+        <td>Google folder</td>
+        <td>{Case_007_pof}</td>
+        <td>{Case_007_ret}</td>
+        <td>{Case_007_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_008</td>
+        <td>Unknown sources</td>
+        <td>{Case_008_pof}</td>
+        <td>{Case_008_ret}</td>
+        <td>{Case_008_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_009</td>
+        <td>Developer options</td>
+        <td>{_pof}</td>
+        <td>{Case_009_ret}</td>
+        <td>{Case_009_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_010</td>
+        <td>USB debugging</td>
+        <td>{_pof}</td>
+        <td>{Case_010_ret}</td>
+        <td>{Case_010_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_011</td>
+        <td>Verify apps</td>
+        <td>{_pof}</td>
+        <td>{Case_011_ret}</td>
+        <td>{Case_011_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_012</td>
+        <td>backup</td>
+        <td>{_pof}</td>
+        <td>{Case_012_ret}</td>
+        <td>{Case_012_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_013</td>
+        <td>Google location</td>
+        <td>{Case_013_ret}</td>
+        <td>{Case_013_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_014</td>
+        <td>Google legal</td>
+        <td>{Case_014_ret}</td>
+        <td>{Case_014_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_015</td>
+        <td>Google account</td>
+        <td>{Case_015_ret}</td>
+        <td>{Case_015_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_016</td>
+        <td>Maps</td>
+        <td>{Case_016_ret}</td>
+        <td>{Case_016_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_017</td>
+        <td>Play Store</td>
+        <td>{Case_017_ret}</td>
+        <td>{Case_017_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_018</td>
+        <td>YouTube</td>
+        <td>{Case_018_ret}</td>
+        <td>{Case_018_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_019</td>
+        <td>client id - For all ecid</td>
+        <td>{Case_019_ret}</td>
+        <td>{Case_019_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_020</td>
+        <td>adb vendor id</td>
+        <td>{Case_020_ret}</td>
+        <td>{Case_020_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_021</td>
+        <td>su proccess</td>
+        <td>{Case_021_ret}</td>
+        <td>{Case_021_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_022</td>
+        <td>Feature</td>
+        <td>{Case_022_ret}</td>
+        <td>{Case_022_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_023</td>
+        <td>Multi-user</td>
+        <td>{Case_023_ret}</td>
+        <td>{Case_023_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_024</td>
+        <td>waiver case</td>
+        <td>{Case_024_ret}</td>
+        <td>{Case_024_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_025</td>
+        <td>test report review</td>
+        <td>{Case_025_ret}</td>
+        <td>{Case_025_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_026</td>
+        <td>check webview</td>
+        <td>{Case_026_ret}</td>
+        <td>{Case_026_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_027</td>
+        <td>Google Settings</td>
+        <td>{Case_027_ret}</td>
+        <td>{Case_027_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_028</td>
+        <td>Factory Reset Protection</td>
+        <td>{Case_028_ret}</td>
+        <td>{Case_028_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_029</td>
+        <td>Near-Ultrasound capability</td>
+        <td>{Case_029_ret}</td>
+        <td>{Case_029_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_030</td>
+        <td>make sure all APKs for test purpose have removed</td>
+        <td>{Case_030_ret}</td>
+        <td>{Case_030_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_031</td>
+        <td>Security status injection into Settings</td>
+        <td>{Case_031_ret}</td>
+        <td>{Case_031_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_032</td>
+        <td>Reference AOSP image requirements</td>
+        <td>{Case_032_ret}</td>
+        <td>{Case_032_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_033</td>
+        <td>Widget appearance</td>
+        <td>{Case_033_ret}</td>
+        <td>{Case_033_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_034</td>
+        <td>Check that Russia feature string is present</td>
+        <td>{Case_034_ret}</td>
+        <td>{Case_034_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_035</td>
+        <td>ro.vendor.build.fingerprint</td>
+        <td>{Case_035_ret}</td>
+        <td>{Case_035_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_036</td>
+        <td>Safe Mode</td>
+        <td>{Case_036_ret}</td>
+        <td>{Case_036_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_037</td>
+        <td>Google: Security patch level check</td>
+        <td>{Case_037_ret}</td>
+        <td>{Case_037_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_038</td>
+        <td>Gboard device</td>
+        <td>{Case_038_ret}</td>
+        <td>{Case_038_ss}</td>
+    </tr>
+    <tr>
+        <td>Case_039</td>
+        <td>property ro.product.first_api_level</td>
+        <td>{Case_039_ret}</td>
+        <td>{Case_039_ss}</td>
+    </tr>
+</table>

@@ -1,0 +1,149 @@
+------ Athena precondition for stability test -----------------------------------------
+
+0. 复制音频文件，以及联系人到手机
+    common.py中修改DeviceID和卡号（如果SIM卡有更换的话）
+    重启手机
+
+1. 开启Token： 连翻墙wifi。拨号*#*#gettoken#*#*
+    拨打###666#，开启google应用
+    sleep时间设置半小时
+    设置中关闭音量
+    关闭screen lock
+    添加Google账号：atttest133@gmail.com  abcd4567。登录完成后进入PlayStore去除wifi自动更新选项
+    Apps--setting--App permissions(开启所有 permissions)
+    关闭部分应用的notification，BBM，Blackberry Hub+ services，calendar，hub，message，以免对脚本有影响
+    开启Blackberry Hub+ services的notification，APP info->permission->开启所有的应用
+    开启adb debug，打开stay awake，关闭verify app over USB
+
+2. 将图标放在home launcher：'Maps'， 'Play Music'， "Files", "Device Search"
+Google Maps脚本：
+    a. Enter Maps 2 times,click 2 'GOT IT' to remove pre-settings
+    b. Search for a place, then navigate to it, click 'GOT IT' to remove pre-settings
+MusicPlay脚本：
+    a. open 'Play Music' click 'Shuffle all',and stop play the music
+Files:
+    根目录下创建test文件夹
+device search:
+跳过想到
+
+3. Telephony脚本：
+    b. 打开contacts，取消欢迎界面
+
+4. Messaging脚本：
+    a. 'MMS': "1111", 'SMS': "2222"
+    b. enter messenger Settings close 'Get notifications'
+    c. 创建短信，尝试添加各种媒体文件，勾选掉权限相关按钮
+    d. 删除多余的短消息
+    e. 关闭短信通知!
+
+6. Chrome脚本:
+    a. add 5 bookmarks(different from homepage)，选择QQ.com中的5个tab
+    b. click 'NO THANKS', delete 'Carrier Bookmarks'
+    c. 进入一次www.baidu.com,点掉Location弹出框
+    d. 关掉翻译
+    e: 登录http://60.12.220.48:8080/stability.jsp，尝试下载音乐，video，选择默认播放工具
+    尝试播放流媒体（RTSP）选择默认播放工具，photos可以播放
+
+10. Camera脚本：
+    a. open 'Camera' to remove pre-settings
+    b. make sure flash off about front and back camera
+    c. take video and play it, the first time will pop up window "full screen", dismiss it
+
+5. Email脚本：(注意所用账号，需要提前和team其他人员分配好，自己用自己的，以下账号是吴迪在使用)
+    username: atttest02@tcl.com(Athena)    atttest03@tcl.com(Mercury)   atttest04@tcl.com(debug)
+    password: StabilityTest02              StabilityTest03              StabilityTest04
+    收件箱里需要有2封邮件：
+    stability test with one attachment
+    stability test with no attachment
+    pop3 server: mail.tcl.com
+    a. enter hub app, remove pre-setting windows
+    b. log on email，click 'MANUAL SETUP' and select 'Microsoft exchange activesync'
+    c. enter hub -> Settings -> General Settings,close Conversation view
+    d. Enter hub settings->General Settings->atttest05@tcl.com->uncheck Email notifications,
+    and "Email sync timeframe" choose Forever
+    e. open 'Deleted Items'  folder, and click 'ALWAYS' to remove pre-setting
+    f. attempt to reply a email, no need to send,click 'ASK FOR PERMISSION' and 'ALLOW' to reomve pre-setting
+
+8. PIM脚本：
+    a. open 'Calendar' to remove pre-settings
+    b. click agenda in menu
+    c. 关闭calendar的notification
+
+9. BB app
+    Sound Recorder 跳过
+    device search 跳过
+    task 跳过，排序选择by creation date
+    product adge 跳过，
+
+10. Facebook
+    playstore中下载Facebook
+    登录
+    发送一条状态，状态中从camera中拍照，录制视频，都走一遍，确认所有弹出的提示
+
+11. Twitter
+    playstore中下载Twitter
+    登录
+    发送一条状态，状态包括camera中拍照，录制视频，确认所有弹出的提示
+    给好友发送一条信息，包括文本，以及camera中拍照，录制视频，确认所有弹出的提示
+
+12. WeChat
+    playstore中下载微信
+    登录，自己的名字需要修改成以PT开头
+    发送一条状态，状态包括camera中拍照，录制视频，确认所有弹出的提示
+    给好友发送一条信息，包括文本，以及camera中拍照，录制视频，确认所有弹出的提示
+
+13. Gallery
+    打开photos，跳过向导
+    关闭账号同步
+
+-------------------------------OLD-------------------------------------------------------------------------------
+1. 开启Token： 连翻墙wifi。拨号*#*#gettoken#*#*
+    拨打###666#，开启google应用
+    sleep时间设置半小时，或develop option中开启keep awake
+    设置中关闭音量
+    添加Google账号：atttest133@gmail.com  abcd4567。登录完成后进入PlayStore去除wifi自动更新选项
+    storage内存放入测试文件
+    将图标放在home launcher：'Maps'， 'Play Music'
+    Apps--setting--App permissions(open all permissions)
+    关闭hub，calendar，message的notification
+2. common.py中修改DeviceID和卡号（如果SIM卡有更换的话）
+3. Telephony脚本：
+    b. 启动Contact/Call, 会有permission弹框
+    c. 手动添加联系人，确保整个流程走通，不会有弹框出现。
+    d. 打开联系人，会有permission弹框
+    e. 从storage导入联系人
+    f. 进入一次Music player，进入要连接wifi
+4. Messaging脚本：
+    a. 'MMS': "1111", 'SMS': "2222"
+    b. enter messenger Settings close 'Get notifications'
+    c. 创建短信，尝试添加各种媒体文件，勾选掉权限相关按钮
+5. Email脚本：
+    username: atttest11@tcl.com    atttest02@tcl.com
+    password: StabilityTest09
+    pop3 server: mail.tcl.com
+    a. enter hub app, remove pre-setting windows
+    b. log on email，click 'MANUAL SETUP' and select 'Microsoft exchange activesync'
+    c. Enter hub settings->General Settings->atttest05@tcl.com->uncheck Email notifications, and "Email sync timeframe" choose Forever
+    c. open 'Deleted Items'  folder, and click 'ALWAYS' to remove pre-setting
+    d. attempt to reply a email, no need to send,click 'ASK FOR PERMISSION' and 'ALLOW' to reomve pre-setting
+    e. enter hub -> Settings -> General Settings,close Conversation view
+6. Chrome脚本:
+    a. add 5 bookmarks(different from homepage)
+    b. click 'NO THANKS', delete 'Carrier Bookmarks'
+    c. 进入一次www.baidu.com,点掉Location弹出框
+7. Store脚本：
+    无
+8. PIM脚本：
+    a. open 'Calendar' to remove pre-settings
+    b. click agenda in menu
+    c. 关闭calendar的notification
+9. MusicPlay脚本：
+    a. open 'Play Music' click 'Shuffle all',and stop play the music
+10. Camera脚本：
+    a. open 'Camera' to remove pre-settings
+    b. make sure flash off about front and back camera
+    c. take video and play it, the first time will pop up window "full screen", dismiss it
+11. Google Maps脚本：
+    a. Enter Maps 2 times,click 2 'GOT IT' to remove pre-settings
+    b. Search for a place, then navigate to it, click 'GOT IT' to remove pre-settings
+

@@ -1,0 +1,172 @@
+<!--say hello-->
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Hi all,</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>{project_name} Full Smoke Test status as below on version
+    {sw_version}:</p>
+<h4 style='font-family:"Calibri","sans-serif";color:#FF0000'>{crashed_str}</h4>
+<!--Test Information-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test Information</h3>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><b>Device:&nbsp;</b>{device_for_smoke}</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><b>Build:&nbsp;</b>{build_name}</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><b>Branch:&nbsp;</b>{branch_for_smoke}</p>
+<!--PIM Apps Data-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>PIM Apps Data:</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    {loops_show_properties}
+</table>
+<!--Test case summary-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test case summary:</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    <tr>
+        <td bgcolor="#21C5ED">PASS</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#21C5ED">FAIL</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#21C5ED">BLOCK</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+</table>
+<!--Test Run Results-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test Run Results:</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    <tr bgcolor="#21C5ED">
+        <td>Case ID</td>
+        <td>Case Name</td>
+        <td>Checker</td>
+        <td>Test Result</td>
+        <td>PR ID</td>
+        <td>Test method</td>
+    </tr>
+    {loops_show_results}
+    <tr>
+        <td>275691</td>
+        <td>QS - Flash Device</td>
+        <td></td>
+        <td style='text-align:center'><span style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>151371</td>
+        <td>Bluetooth - Pairing</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275723</td>
+        <td>Browser</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>179941</td>
+        <td>Calendar - User Settings</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>289695</td>
+        <td>Charging</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>267789</td>
+        <td>Confidentiality</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>590470</td>
+        <td>Corporate AFW Enrollment</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>594140</td>
+        <td>Flash Device with Password</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275728</td>
+        <td>Keyboard and Text Input</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>151372</td>
+        <td>NFC</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275719</td>
+        <td>Out-of-Box Setup</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275720</td>
+        <td>Phone - Audio Routing</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>151389</td>
+        <td>Power Management</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275722</td>
+        <td>Video Playback</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>607516</td>
+        <td>Flashlight</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>612332</td>
+        <td>Security - Fingerprint</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+</table>

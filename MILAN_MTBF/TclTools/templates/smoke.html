@@ -1,0 +1,611 @@
+<!--say hello-->
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Hi all,</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>{project_name} Full Smoke Test status as below on version
+    {sw_version}:</p>
+<h4 style='font-family:"Calibri","sans-serif";color:#FF0000'>{crashed_str}</h4>
+<!--Test Information-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test Information</h3>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><b>Device:&nbsp;</b>{device_for_smoke}</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><b>Build:&nbsp;</b>{build_name}</p>
+<p style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><b>Branch:&nbsp;</b>{branch_for_smoke}</p>
+<!--PIM Apps Data-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>PIM Apps Data:</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    {loops_show_properties}
+</table>
+<!--Test case summary-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test case summary:</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    <tr>
+        <td bgcolor="#21C5ED">PASS</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#21C5ED">FAIL</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#21C5ED">BLOCK</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+</table>
+<!--Test Run Results-->
+<h3 style='font-family:"Calibri","sans-serif";color:#1F497D'>Test Run Results:</h3>
+<table border="1" cellspacing="0" style='border-collapse:collapse;font-family:"Calibri","sans-serif"'>
+    <tr bgcolor="#21C5ED">
+        <td>Case ID</td>
+        <td>Case Name</td>
+        <td>Checker</td>
+        <td>Test Result</td>
+        <td>PR ID</td>
+        <td>Test method</td>
+    </tr>
+    {loops_show_results}
+    <tr>
+        <td>275714</td>
+        <td>BBM-AddContact</td>
+        <td></td>
+        <td style='text-align:center'><span class="275714" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275715</td>
+        <td>BBM-Messaging</td>
+        <td></td>
+        <td style='text-align:center'><span class="275715" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275693(Without AFW)</td>
+        <td>QS-Enterprise-CreateAccount</td>
+        <td></td>
+        <td style='text-align:center'><span class="275693(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275733(Without AFW)</td>
+        <td>Enterprise-Attachments</td>
+        <td></td>
+        <td style='text-align:center'><span class="275733(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275729(Without AFW)</td>
+        <td>Enterprise-Delete/FileMessages</td>
+        <td></td>
+        <td style='text-align:center'><span class="275729(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275730(Without AFW)</td>
+        <td>Gmail-Delete/FileMessages</td>
+        <td></td>
+        <td style='text-align:center'><span class="275730(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275694(Without AFW)</td>
+        <td>QS-Enterprise-Send/ReceiveEmail</td>
+        <td></td>
+        <td style='text-align:center'><span class="275694(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275712(Without AFW)</td>
+        <td>QS-Personal-Send/ReceiveEmail</td>
+        <td></td>
+        <td style='text-align:center'><span class="275712(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275700(Without AFW)</td>
+        <td>Enterprise-Reply/ForwardEmail</td>
+        <td></td>
+        <td style='text-align:center'><span class="275700(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275701(Without AFW)</td>
+        <td>Personal-Send/ReceiveEmail</td>
+        <td></td>
+        <td style='text-align:center'><span class="275701(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275734(Without AFW)</td>
+        <td>Enterprise-Calendar-MeetingReminders</td>
+        <td></td>
+        <td style='text-align:center'><span class="275734(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>274847(Without AFW)</td>
+        <td>EnterpriseCalendar-TentativeInvite</td>
+        <td></td>
+        <td style='text-align:center'><span class="274847(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275702(Without AFW)</td>
+        <td>Enterprise-CalendarInvites</td>
+        <td></td>
+        <td style='text-align:center'><span class="275702(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275274(Without AFW)</td>
+        <td>EnterpriseContacts</td>
+        <td></td>
+        <td style='text-align:center'><span class="275274(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275696(Without AFW)</td>
+        <td>QS-Enterprise-CalendarSync</td>
+        <td></td>
+        <td style='text-align:center'><span class="275696(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275695(Without AFW)</td>
+        <td>QS-Enterprise-ContactSync</td>
+        <td></td>
+        <td style='text-align:center'><span class="275695(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>267788</td>
+        <td>GoogleAccount</td>
+        <td></td>
+        <td style='text-align:center'><span class="267788" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275711</td>
+        <td>QS-AddGmailAccount</td>
+        <td></td>
+        <td style='text-align:center'><span class="275711" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275703</td>
+        <td>QS-GooglePlay</td>
+        <td></td>
+        <td style='text-align:center'><span class="275703" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275717</td>
+        <td>GoogleMaps</td>
+        <td></td>
+        <td style='text-align:center'><span class="275717" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275709</td>
+        <td>MusicPlayback</td>
+        <td></td>
+        <td style='text-align:center'><span class="275709" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275731</td>
+        <td>QS-SideloadapkFile</td>
+        <td></td>
+        <td style='text-align:center'><span class="275731" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275699</td>
+        <td>QS-USB</td>
+        <td></td>
+        <td style='text-align:center'><span class="275699" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275817</td>
+        <td>QS-Wifi</td>
+        <td></td>
+        <td style='text-align:center'><span class="275817" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>267790</td>
+        <td>Settings</td>
+        <td></td>
+        <td style='text-align:center'><span class="267790" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275727</td>
+        <td>QS-DevMode</td>
+        <td></td>
+        <td style='text-align:center'><span class="275727" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275692</td>
+        <td>QS-Orientation</td>
+        <td></td>
+        <td style='text-align:center'><span class="275692" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275707</td>
+        <td>Camera-Pictures</td>
+        <td></td>
+        <td style='text-align:center'><span class="275707" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275708</td>
+        <td>Camera-Videos</td>
+        <td></td>
+        <td style='text-align:center'><span class="275708" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275710</td>
+        <td>CellularDataConnectivity</td>
+        <td></td>
+        <td style='text-align:center'><span class="275710" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275716</td>
+        <td>HomescreenNavigation</td>
+        <td></td>
+        <td style='text-align:center'><span class="275716" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>267787</td>
+        <td>LaunchApplications</td>
+        <td></td>
+        <td style='text-align:center'><span class="267787" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275713</td>
+        <td>SetAlarm</td>
+        <td></td>
+        <td style='text-align:center'><span class="275713" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>151387(Without AFW)</td>
+        <td>UniversalSearch</td>
+        <td></td>
+        <td style='text-align:center'><span class="151387(Without AFW)"
+                                            style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275706</td>
+        <td>MMS</td>
+        <td></td>
+        <td style='text-align:center'><span class="275706" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275705</td>
+        <td>SMS</td>
+        <td></td>
+        <td style='text-align:center'><span class="275705" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>179939</td>
+        <td>Phone-DoNotAnswer</td>
+        <td></td>
+        <td style='text-align:center'><span class="179939" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275698</td>
+        <td>QS-PhoneCall</td>
+        <td></td>
+        <td style='text-align:center'><span class="275698" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275691</td>
+        <td>QS-FlashDevice</td>
+        <td></td>
+        <td style='text-align:center'><span class="275691" style='background:red;mso-highlight:red'>FAIL</span></td>
+        <td></td>
+        <td>Auto Test</td>
+    </tr>
+    <tr>
+        <td>275720</td>
+        <td>Phone - Audio Routing</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275719</td>
+        <td>Out-of-Box Setup</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>151371</td>
+        <td>Bluetooth - Pairing</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>179941</td>
+        <td>Calendar - User Settings</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275723</td>
+        <td>Browser</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>590470</td>
+        <td>Corporate AFW Enrollment</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>289695</td>
+        <td>Charging</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275728</td>
+        <td>Keyboard and Text Input</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275722</td>
+        <td>Video Playback</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>151389</td>
+        <td>Power Management</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>267789</td>
+        <td>Confidentiality</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>151372</td>
+        <td>NFC</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>594140</td>
+        <td>Flash Device with Password</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>612332</td>
+        <td>Security - Fingerprint</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>607516</td>
+        <td>Flashlight</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275701</td>
+        <td>Personal - Send/Receive Email</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275693</td>
+        <td>QS - Enterprise - Create Account</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275733</td>
+        <td>Enterprise - Attachments</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275734</td>
+        <td>Enterprise - Calendar - Meeting Reminders</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275702</td>
+        <td>Enterprise - Calendar Invites</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275729</td>
+        <td>Enterprise - Delete/File Messages</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275700</td>
+        <td>Enterprise - Reply/Forward Email</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>274847</td>
+        <td>Enterprise Calendar - Tentative Invite</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275730</td>
+        <td>Gmail - Delete/File Messages</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275712</td>
+        <td>QS - Personal - Send/Receive Email</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275694</td>
+        <td>QS - Enterprise - Send/Receive Email</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275274</td>
+        <td>Enterprise Contacts</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275696</td>
+        <td>QS - Enterprise - Calendar Sync</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>275695</td>
+        <td>QS - Enterprise - Contact Sync</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+    <tr>
+        <td>151387</td>
+        <td>Universal Search</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Manual Test</td>
+    </tr>
+</table>
