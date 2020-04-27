@@ -227,11 +227,10 @@ class Common(object):
     def clearAllRecent(self):
         self._logger.info("Clear all recent apps")
         try:
-            
             for _ in range(10):
                 self._device.press.recent()
                 self._device.delay(1)
-                if self._device(text="No recent items").exists:
+                if not self._device(resourceId="com.tcl.android.launcher:id/clearAll").exists:
                     self._device.press("home")
                     self._device.delay(0.5)
                     break

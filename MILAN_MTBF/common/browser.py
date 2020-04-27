@@ -56,7 +56,7 @@ class Browser(Common):
         for url in web_sites:
             self.pre_add_bookmarks(url)
 
-        self.del_bookmark("https://3g.my-onetouch.com/")
+        # self.del_bookmark("https://3g.my-onetouch.com/")
         self.exit_and_confim()
 
     def exit_and_confim(self):

@@ -226,6 +226,8 @@ class Camera(Common):
 
         if self.isMILAN_GL:
             x, y = 111, 1409
+        elif self.isMILAN_EEA:
+            x, y = 111, 1409
         else:
             x, y = 143, 2061
         self.adb.shell("input tap %d %d"%(x,y))

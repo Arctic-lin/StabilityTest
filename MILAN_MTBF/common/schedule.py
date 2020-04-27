@@ -63,9 +63,19 @@ class Schedule(Common):
             self.device(resourceId="com.blackberry.calendar:id/introductory_slide_skip_button").wait.gone(timeout=3000)
 
         return self.device(resourceId="com.blackberry.calendar:id/create_event_fan_root_fab").wait.exists(timeout=3000)
-
+    def iskeyboard(self):
+        getStatus = self.adb.shell("dumpsys input_method")
+        if getStatus:
+            return "mInputShown=true" in getStatus
+        return False
+    def closekeyboard(self):
+        if self.iskeyboard():
+            self.device.press("back")
     def create_calendar(self, name):
         self.logger.debug('create a new event %s' % name)
+        if self.device (text="Auto-start").exists:
+            self.device.delay (2)
+            self.device(text="CANCEL").click()
         self.set_today_btn.click()
         self.set_today_btn.click()
         self.device.wait.idle()
@@ -105,7 +115,10 @@ class Schedule(Common):
         self.device.delay(1)
 
         # add location
-        self.device(text="Add location").click()
+        self.closekeyboard()
+        self.device.delay(1)
+        if self.device(text="Add location").exists:
+            self.device(text="Add location").click()
         self.device.wait.idle()
 
         self.logger.debug('input event %s location' % name + "_location")
@@ -1030,6 +1043,8 @@ class Schedule(Common):
         self.device(resourceId="com.google.android.calendar:id/floating_action_button").click()
         if self.device(text="Event").exists:
             self.device (text="Event").click()
+        self.device.delay(1)
+        self.closekeyboard()
         self.device(scrollable=True).scroll.vert.to(text="Add location")
         self.device(text="Add location").click()
         time.sleep(1)

@@ -45,11 +45,11 @@ class LockScreenStability(BaseTestCase):
             ENDURANCE_WALLPAPER_001     更换home screen壁纸            20
         """
 
-        # self.case_lock_screen("Swipe", int(self.dicttesttimes.get("SwipeTimes".lower())))
-        # self.case_lock_screen("PIN", int(self.dicttesttimes.get("PINTimes".lower())))
-        # self.case_lock_screen("Password", int(self.dicttesttimes.get("PasswordTimes".lower())))
+        self.case_lock_screen("Swipe", int(self.dicttesttimes.get("SwipeTimes".lower())))
+        self.case_lock_screen("PIN", int(self.dicttesttimes.get("PINTimes".lower())))
+        self.case_lock_screen("Password", int(self.dicttesttimes.get("PasswordTimes".lower())))
         self.case_lock_screen("Pattern", int(self.dicttesttimes.get("PtnTimes".lower())))
-        # self.case_switch_wallpaper(int(self.dicttesttimes.get("WallpaperTimes".lower())))
+        self.case_switch_wallpaper(int(self.dicttesttimes.get("WallpaperTimes".lower())))
 
     def case_lock_screen(self, lock_type, times):
         """

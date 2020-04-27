@@ -106,7 +106,7 @@ class Call(Common):
             for i in num:
                 self._device(text=i).click()
                 self._device.delay(1)        
-        self._device(resourceId="com.google.android.dialer:id/dialpad_floating_action_button").click.wait()
+        self._device(resourceId="com.google.android.dialer:id/dialpad_voice_call_button").click.wait()
         self._device.delay(2)
         self.end_call() 
           
@@ -178,22 +178,25 @@ class Call(Common):
         # if not self._device(description="Contacts").isSelected():
         self._device(text="Contacts").click.wait()
         self._device.delay(2)
+        # for _ in range(4):
+        #     self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll(steps=3)
+        #     self._device.delay(1)
+        #     self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll(steps=3)
+        #     self._device.delay(1)
+        #     self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll.vert.backward(steps=3)
+        #     self._device.delay(1)
+        #     self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll.vert.backward(steps=3)
+        #     self._device.delay(1)
         for _ in range(4):
-            self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll(steps=100)
-            self._device.delay(1)
-            self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll(steps=100)
-            self._device.delay(1)
-            self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll.vert.backward(steps=100)
-            self._device.delay(1)
-            self._device(resourceId="com.google.android.dialer:id/click_target",instance=5).scroll.vert.backward(steps=100)
-            self._device.delay(1)
+            self._device.swipe(334,1212,334,480)
+            self._device.delay (1)
             
     def deleteRecentCalls(self):
         self._logger.debug("Start to deleteRecentCalls.")
         if self._device(text="Recents").exists:
             self._device(text="Recents").click()
             self._device.delay(1)
-        self._device(resourceId="com.google.android.dialer:id/entry_info_container",instance=0).long_touch()
+        self._device(resourceId="com.google.android.dialer:id/entry_info_container",instance=0).long_click()
         if self._device(text="Delete").exists:
             self._device(text="Delete").click()
             self._device.delay(1)
@@ -233,13 +236,7 @@ class Call(Common):
             self._device(resourceId="com.google.android.dialer:id/fab",description="key pad").click.wait()
             self._device.delay(1)       
         self._logger.debug("Input PhoneNumber %s." % phoneNum)
-#         digitsItem = self._device(resourceId='com.tct.dialer:id/digits')
-#         digitsItem.set_text(phoneNum)
-#         getText=self._device(resourceId="com.vodafone.messaging:id/digits").get_text()
-#         if getText:
-#             self._device(resourceId="com.vodafone.messaging:id/deleteButton").long_touch()
         self.inputNumber(phoneNum)
-#        self._device(resourceId="com.tct.dialer:id/digits_container").set_text(phoneNum) 
         self._device.delay(3)
         if self._device(resourceId="com.google.android.dialer:id/secondary",textContains=phoneNum).exists:
             self._logger.debug("Find out specified PhoneNumber.")
@@ -248,9 +245,14 @@ class Call(Common):
             self._device.press("back")
             self._device.delay(1)
             return True
-        return False   
+        else:
+            return False
 
-    def inputNumber(self,number="10010"):        
+    def inputNumber(self,number="10010"):
+        while self._device(resourceId="com.google.android.dialer:id/digits",textMatches=".*").exists:
+            self._device.shell_adb("shell input keyevent 67")
+            if self._device(resourceId="com.google.android.dialer:id/digits",text="").exists:
+                break
         numlist=list(number)
         for i in numlist:
             if i=='0':
@@ -278,10 +280,11 @@ class Call(Common):
 
 
 if __name__ == "__main__":
-    d = common.Device("SGA6VKBUSWIZHI59")
+    d = common.Device("GAWKFQT8WGL7L7S8")
     mCall=Call(d)
-    mCall.callFromDialPad()
-    mCall.enter_call()
+    mCall.inputNumber()
+    # mCall.callFromDialPad()
+    # mCall.enter_call()
     #mCall.callFromSpeedDial()
     #mCall.callFromContacts()
     #mCall.callFromDialPad()

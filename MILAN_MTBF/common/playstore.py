@@ -165,8 +165,8 @@ class PlayStore(Common):
             if self.device(text="CONTINUE").exists:
                 self.device (text="CONTINUE").click()
                 self.device.delay (3)
-                if self.device(text="Skip").exists:
-                    self.device (text="Skip").click()
+            if self.device(text="Skip").exists:
+                self.device (text="Skip").click()
             return True
         return False
 
@@ -199,12 +199,14 @@ class PlayStore(Common):
         self.playstore_home.click.wait()
         self.device(resourceId="com.android.vending:id/search_bar_text_input").set_text(apk.lower())
         self.device.press.enter()
-
         # verify if downloaded already
         if self.device(text="Open").wait.exists(timeout=3000):
             # x, y = 491, 411
             # self.device.click(x, y)
             self.device(text=apk).click()
+            if self.device(text="Auto-start").exists:
+                self.device.delay(2)
+                self.device(text="CANCEL").click()
             self.click_unistall_if_exists()
             self.device.delay(5)  # wait to uninstall
             self.device.press.back()

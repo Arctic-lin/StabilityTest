@@ -38,7 +38,8 @@
     <SUITE FILE_PATH="coverage/T1-10$Unittest_PreSetUp_test_0_prepare_all_device.coverage" NAME="Unittest PreSetUp.test_0_prepare_all_device Coverage Results" MODIFIED="1573464254415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$recorder.coverage" NAME="recorder Coverage Results" MODIFIED="1583898535987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$17_FileManager.coverage" NAME="17_FileManager Coverage Results" MODIFIED="1584432139249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
-    <SUITE FILE_PATH="coverage/MILAN_MTBF$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1584410288986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1587900646864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$00_setup.coverage" NAME="00_setup Coverage Results" MODIFIED="1587956694084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$Unittests_in_02_MP_Check_Cases.coverage" NAME="Unittests in 02_MP_Check_Cases Coverage Results" MODIFIED="1573034034142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
     <SUITE FILE_PATH="coverage/T1-PRO$Unittests_in_PreSetUp.coverage" NAME="Unittests in PreSetUp Coverage Results" MODIFIED="1576129349136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$16_Wifi.coverage" NAME="16_Wifi Coverage Results" MODIFIED="1584430424542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
@@ -47,7 +48,7 @@
     <SUITE FILE_PATH="coverage/MILAN_MTBF$23_Lockscreen_Launcher.coverage" NAME="23_Lockscreen_Launcher Coverage Results" MODIFIED="1584942961326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1575256634734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Hidden_Code_002.coverage" NAME="Unittest SettingRelated.test_Hidden_Code_002 Coverage Results" MODIFIED="1573095190936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
-    <SUITE FILE_PATH="coverage/MILAN_MTBF$11_MusicPlayer.coverage" NAME="11_MusicPlayer Coverage Results" MODIFIED="1584411505086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$11_MusicPlayer.coverage" NAME="11_MusicPlayer Coverage Results" MODIFIED="1587902340709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$Unittest_TestGoogleReq_test_004_geo_match.coverage" NAME="Unittest TestGoogleReq.test_004_geo_match Coverage Results" MODIFIED="1573118043941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
     <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_baseOS_001.coverage" NAME="Unittest SettingRelated.test_baseOS_001 Coverage Results" MODIFIED="1573038903601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
     <SUITE FILE_PATH="coverage/T1-10$05_Gmail.coverage" NAME="05_Gmail Coverage Results" MODIFIED="1574662717441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
@@ -76,9 +77,9 @@
     <SUITE FILE_PATH="coverage/T1-10$Unittest_TestGoogleReq_test_003_google_now.coverage" NAME="Unittest TestGoogleReq.test_003_google_now Coverage Results" MODIFIED="1573117919001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
     <SUITE FILE_PATH="coverage/T1-PRO$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1577362751778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1_Stability$14_GoogleMaps_Interrupt.coverage" NAME="14_GoogleMaps_Interrupt Coverage Results" MODIFIED="1569582395734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
-    <SUITE FILE_PATH="coverage/MILAN_MTBF$01_Telephony.coverage" NAME="01_Telephony Coverage Results" MODIFIED="1584347757421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$01_Telephony.coverage" NAME="01_Telephony Coverage Results" MODIFIED="1587548802864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$Unittests_in_00_setup.coverage" NAME="Unittests in 00_setup Coverage Results" MODIFIED="1573180099453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
-    <SUITE FILE_PATH="coverage/MILAN_MTBF$10_Recorder.coverage" NAME="10_Recorder Coverage Results" MODIFIED="1584410799641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$10_Recorder.coverage" NAME="10_Recorder Coverage Results" MODIFIED="1587902136022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$12_Camera.coverage" NAME="12_Camera Coverage Results" MODIFIED="1584413872939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Debug_Property_003.coverage" NAME="Unittest SettingRelated.test_Debug_Property_003 Coverage Results" MODIFIED="1573104323993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
     <SUITE FILE_PATH="coverage/T1-10$13_Multi_Tasking.coverage" NAME="13_Multi_Tasking Coverage Results" MODIFIED="1575257845843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
@@ -87,7 +88,7 @@
     <SUITE FILE_PATH="coverage/T1-10$07_StoreFront_Download.coverage" NAME="07_StoreFront_Download Coverage Results" MODIFIED="1575259484598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1_Stability$12_Camera.coverage" NAME="12_Camera Coverage Results" MODIFIED="1569547013780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1-10$00_setup.coverage" NAME="00_setup Coverage Results" MODIFIED="1572937775171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
-    <SUITE FILE_PATH="coverage/MILAN_MTBF$flash_devices.coverage" NAME="flash_devices Coverage Results" MODIFIED="1584955031887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$flash_devices.coverage" NAME="flash_devices Coverage Results" MODIFIED="1587546806401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/T1-10$Unittest_SettingRelated_test_Debug_Property_002.coverage" NAME="Unittest SettingRelated.test_Debug_Property_002 Coverage Results" MODIFIED="1573098253109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mpChecklist" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$15_Menu_Navigation.coverage" NAME="15_Menu_Navigation Coverage Results" MODIFIED="1584428301771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$14_GoogleMaps_Interrupt.coverage" NAME="14_GoogleMaps_Interrupt Coverage Results" MODIFIED="1584427989561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
@@ -114,7 +115,7 @@
     <SUITE FILE_PATH="coverage/MILAN_MTBF$browser.coverage" NAME="browser Coverage Results" MODIFIED="1584359913168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/T1-PRO$01_Telephony.coverage" NAME="01_Telephony Coverage Results" MODIFIED="1575870361700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$04_Messaging.coverage" NAME="04_Messaging Coverage Results" MODIFIED="1584349882759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
-    <SUITE FILE_PATH="coverage/MILAN_MTBF$06_Browser.coverage" NAME="06_Browser Coverage Results" MODIFIED="1584360281042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
+    <SUITE FILE_PATH="coverage/MILAN_MTBF$06_Browser.coverage" NAME="06_Browser Coverage Results" MODIFIED="1587899351857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_16_Wifi_py.coverage" NAME="Unittests in 16_Wifi.py Coverage Results" MODIFIED="1584342276629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/T1_Stability$09_PIM.coverage" NAME="09_PIM Coverage Results" MODIFIED="1569550187979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
     <SUITE FILE_PATH="coverage/MILAN_MTBF$Unittests_in_07_StoreFront_Download_py.coverage" NAME="Unittests in 07_StoreFront_Download.py Coverage Results" MODIFIED="1584927743161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stability" />
@@ -130,43 +131,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stability/00_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jankiness/jankiness_base.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/stability/04_Messaging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configure/common.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stability/07_StoreFront_Download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/playstore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="168" column="53" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="168" selection-end-column="53" />
+            <state relative-caret-position="506">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -182,20 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Tasking</find>
-      <find>open_quick_wifi</find>
-      <find>797, 1304</find>
-      <find>_click_and_log</find>
-      <find>NOT exists</find>
-      <find>copy and</find>
-      <find>click_text</find>
-      <find>click_text_DELETE</find>
-      <find>_del</find>
-      <find>click_text_SAVE</find>
-      <find>FAIL</find>
-      <find>CREATE location</find>
-      <find>ERROR</find>
-      <find>lower()</find>
       <find>back_to</find>
       <find>GAWKFQT8WGL7L7S8</find>
       <find>Fail</find>
@@ -212,6 +185,20 @@
       <find>enter %s password</find>
       <find>fastboot</find>
       <find>excel</find>
+      <find>self._device(text =&quot;ALLOW ALL THE TIME&quot;).exists</find>
+      <find>get sdk_version failed</find>
+      <find>https://3g.my-onetouch.com/</find>
+      <find>keyboard</find>
+      <find>btn()</find>
+      <find>adb_shell</find>
+      <find>adb.shell</find>
+      <find>self.device.press(&quot;back&quot;)</find>
+      <find>setup</find>
+      <find>b_desk</find>
+      <find>self.device(text=&quot;Add location&quot;)</find>
+      <find>isMILAN_EEA</find>
+      <find>isMILAN_GL</find>
+      <find>back_to_home</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -220,10 +207,8 @@
         <option value="$PROJECT_DIR$/mpChecklist/01_googleReq.py" />
         <option value="$PROJECT_DIR$/stability/19_Gallery.py" />
         <option value="$PROJECT_DIR$/common/gallery.py" />
-        <option value="$PROJECT_DIR$/stability/10_Recorder.py" />
         <option value="$PROJECT_DIR$/common/yt_music.py" />
         <option value="$PROJECT_DIR$/stability/23_Lockscreen(Launcher).py" />
-        <option value="$PROJECT_DIR$/stability/07_StoreFront_Download.py" />
         <option value="$PROJECT_DIR$/common/configs.py" />
         <option value="$PROJECT_DIR$/configure/Endurance.ini" />
         <option value="$PROJECT_DIR$/endurance/9_DualSim.py" />
@@ -231,27 +216,17 @@
         <option value="$PROJECT_DIR$/configure/Endurance_mini.ini" />
         <option value="$PROJECT_DIR$/stability/05_Gmail.py" />
         <option value="$PROJECT_DIR$/automator/adb.py" />
-        <option value="$PROJECT_DIR$/automator/uiautomator.py" />
         <option value="$PROJECT_DIR$/common/music.py" />
         <option value="$PROJECT_DIR$/common/Google_music.py" />
-        <option value="$PROJECT_DIR$/common/contacts.py" />
-        <option value="$PROJECT_DIR$/common/chrome.py" />
         <option value="$PROJECT_DIR$/configure/Mini_2G3GLTE.ini" />
         <option value="$PROJECT_DIR$/configure/device.ini" />
-        <option value="$PROJECT_DIR$/stability/01_Telephony.py" />
         <option value="$PROJECT_DIR$/common/message.py" />
         <option value="$PROJECT_DIR$/stability/06_Browser.py" />
-        <option value="$PROJECT_DIR$/common/schedule.py" />
         <option value="$PROJECT_DIR$/stability/09_PIM.py" />
-        <option value="$PROJECT_DIR$/common/recorder.py" />
         <option value="$PROJECT_DIR$/common/gmail.py" />
-        <option value="$PROJECT_DIR$/stability/11_MusicPlayer.py" />
         <option value="$PROJECT_DIR$/common/native_music.py" />
         <option value="$PROJECT_DIR$/stability/12_Camera.py" />
         <option value="$PROJECT_DIR$/common/interrupt.py" />
-        <option value="$PROJECT_DIR$/common/camera.py" />
-        <option value="$PROJECT_DIR$/common/common.py" />
-        <option value="$PROJECT_DIR$/common/filemanager_tcl.py" />
         <option value="D:/Program Files/feiq/Recv Files/steps.properties" />
         <option value="$PROJECT_DIR$/common/statusbar.py" />
         <option value="$PROJECT_DIR$/common/settings.py" />
@@ -259,23 +234,35 @@
         <option value="$PROJECT_DIR$/stability/13_Multi_Tasking.py" />
         <option value="$PROJECT_DIR$/stability/04_Messaging.py" />
         <option value="$PROJECT_DIR$/common/base_test_case.py" />
-        <option value="$PROJECT_DIR$/common/browser.py" />
-        <option value="$PROJECT_DIR$/common/telephony.py" />
-        <option value="$PROJECT_DIR$/configure/common.ini" />
-        <option value="$PROJECT_DIR$/stability/00_setup.py" />
-        <option value="$PROJECT_DIR$/common/screen.py" />
-        <option value="$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py" />
         <option value="$PROJECT_DIR$/jankiness/black_berry_launcher_jankiness.py" />
         <option value="$PROJECT_DIR$/flash_devices.py" />
+        <option value="$PROJECT_DIR$/stability/07_StoreFront_Download.py" />
         <option value="$PROJECT_DIR$/common/playstore.py" />
+        <option value="$PROJECT_DIR$/automator/uiautomator.py" />
+        <option value="$PROJECT_DIR$/common/browser.py" />
+        <option value="$PROJECT_DIR$/stability/01_Telephony.py" />
+        <option value="$PROJECT_DIR$/common/telephony.py" />
+        <option value="$PROJECT_DIR$/common/schedule.py" />
+        <option value="$PROJECT_DIR$/common/recorder.py" />
+        <option value="$PROJECT_DIR$/stability/10_Recorder.py" />
+        <option value="$PROJECT_DIR$/common/camera.py" />
+        <option value="$PROJECT_DIR$/common/filemanager_tcl.py" />
+        <option value="$PROJECT_DIR$/common/screen.py" />
+        <option value="$PROJECT_DIR$/stability/11_MusicPlayer.py" />
+        <option value="$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py" />
+        <option value="$PROJECT_DIR$/configure/common.ini" />
+        <option value="$PROJECT_DIR$/common/contacts.py" />
+        <option value="$PROJECT_DIR$/common/common.py" />
+        <option value="$PROJECT_DIR$/common/chrome.py" />
+        <option value="$PROJECT_DIR$/stability/00_setup.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -289,6 +276,32 @@
             <path>
               <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
               <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+              <item name="configure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="fail_img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MILAN_MTBF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MILAN_MTBF" type="462c0819:PsiDirectoryNode" />
+              <item name="stability" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,7 +337,7 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="916" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/GithubProject/Android_App_Permission" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -358,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.flash_devices">
+  <component name="RunManager" selected="Python.00_setup">
     <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="debugOptions">
         <ErlangDebugOptions>
@@ -468,7 +481,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_StoreFront_Download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="00_setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="T1-10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -481,7 +494,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/07_StoreFront_Download.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/00_setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -490,7 +503,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="23_Lockscreen_Launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06_Browser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="T1-10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,7 +516,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/06_Browser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="09_PIM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/09_PIM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10_Recorder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/10_Recorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11_MusicPlayer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="T1-10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stability/11_MusicPlayer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -534,28 +613,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flash_devices" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="T1-10" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flash_devices.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -563,36 +620,6 @@
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in 00_setup.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="T1-10" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/stability/00_setup.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in 07_StoreFront_Download.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="T1-10" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stability" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/stability/07_StoreFront_Download.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -662,19 +689,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.23_Lockscreen_Launcher" />
-      <item itemvalue="Python.07_StoreFront_Download" />
-      <item itemvalue="Python.flash_devices" />
-      <item itemvalue="Python tests.Unittests in 00_setup.py" />
-      <item itemvalue="Python tests.Unittests in 07_StoreFront_Download.py" />
+      <item itemvalue="Python.00_setup" />
+      <item itemvalue="Python.06_Browser" />
+      <item itemvalue="Python.09_PIM" />
+      <item itemvalue="Python.10_Recorder" />
+      <item itemvalue="Python.11_MusicPlayer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flash_devices" />
-        <item itemvalue="Python.23_Lockscreen_Launcher" />
-        <item itemvalue="Python.07_StoreFront_Download" />
-        <item itemvalue="Python tests.Unittests in 07_StoreFront_Download.py" />
-        <item itemvalue="Python tests.Unittests in 00_setup.py" />
+        <item itemvalue="Python.00_setup" />
+        <item itemvalue="Python.11_MusicPlayer" />
+        <item itemvalue="Python.10_Recorder" />
+        <item itemvalue="Python.09_PIM" />
+        <item itemvalue="Python.06_Browser" />
       </list>
     </recent_temporary>
   </component>
@@ -706,6 +733,12 @@
       <workItem from="1585533207560" duration="23000" />
       <workItem from="1585555572528" duration="1435000" />
       <workItem from="1585705326472" duration="760000" />
+      <workItem from="1586416488968" duration="1998000" />
+      <workItem from="1586593621130" duration="575000" />
+      <workItem from="1587461884173" duration="2310000" />
+      <workItem from="1587540315108" duration="4830000" />
+      <workItem from="1587645931143" duration="2695000" />
+      <workItem from="1587887353525" duration="15502000" />
     </task>
     <task id="LOCAL-00034" summary="fix filemanager message music">
       <created>1572863331370</created>
@@ -1086,7 +1119,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116588000" />
+    <option name="totallyTimeSpent" value="144498000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1098,14 +1131,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.2867804" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5081967" side_tool="true" weight="0.25933075" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38586956" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497426" weight="0.3070078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497426" visible="true" weight="0.3070078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38153505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1211,123 +1245,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/tasking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configure/appinfo.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="387" column="38" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/interrupt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/14_GoogleMaps_Interrupt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/15_Menu_Navigation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/filemanager_tcl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/filemanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="176" column="41" lean-forward="true" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/feiq/Recv Files/steps.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/17_FileManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/statusbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/gallery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="95" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/22_SettingsStatusbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/13_Multi_Tasking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/04_Messaging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/recorder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="257" column="18" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/gmail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -1338,26 +1255,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/native_music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/music_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/yt_music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1391,37 +1294,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12474">
-          <caret line="570" column="23" selection-start-line="570" selection-start-column="23" selection-end-line="570" selection-end-column="23" />
-          <folding>
-            <element signature="e#51#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14256">
           <caret line="654" column="69" selection-start-line="654" selection-start-column="69" selection-end-line="654" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/01_Telephony.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/base_test_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,52 +1315,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/telephony.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="107" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
-          <folding>
-            <element signature="e#62#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configure/device.ini">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/00_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automator/uiautomator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7612">
-          <caret line="358" column="19" selection-start-line="358" selection-start-column="19" selection-end-line="358" selection-end-column="19" />
-          <folding>
-            <element signature="e#126#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automator/adb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-          <folding>
-            <element signature="e#25#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="91" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jankiness/chrome_jankiness.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1499,22 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5786">
           <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/screen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3058">
-          <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/configs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1544,31 +1360,253 @@
     <entry file="file://$PROJECT_DIR$/jankiness/jankiness_base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/configure/common.ini">
+    <entry file="file://$PROJECT_DIR$/automator/uiautomator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="7018">
+          <caret line="348" column="39" selection-start-line="348" selection-start-column="34" selection-end-line="348" selection-end-column="39" />
+          <folding>
+            <element signature="e#126#145#0" expanded="true" />
+            <element signature="e#11135#12551#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common.py">
+    <entry file="file://$PROJECT_DIR$/stability/12_Camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        <state relative-caret-position="286">
+          <caret line="120" column="16" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stability/07_StoreFront_Download.py">
+    <entry file="file://$PROJECT_DIR$/common/filemanager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+        <state relative-caret-position="-5629">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/17_FileManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/playstore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="168" column="53" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="168" selection-end-column="53" />
+        <state relative-caret-position="22">
+          <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/telephony.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="273" lean-forward="true" selection-start-line="273" selection-end-line="273" />
+          <folding>
+            <element signature="e#62#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automator/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/07_StoreFront_Download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/06_Browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/09_PIM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1036" column="49" lean-forward="true" selection-start-line="1036" selection-start-column="49" selection-end-line="1036" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/base_test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#46#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="226" column="26" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="26" />
+          <folding>
+            <element signature="e#51#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/filemanager_tcl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="136" column="26" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/recorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="28" column="90" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/10_Recorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/11_MusicPlayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/13_Multi_Tasking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/23_Lockscreen_Launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/01_Telephony.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="56" column="50" lean-forward="true" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/yt_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/native_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="83" column="8" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure/common.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/04_Messaging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stability/00_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
         </state>
       </provider>
     </entry>

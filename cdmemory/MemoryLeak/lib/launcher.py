@@ -18,9 +18,9 @@ class Launcher(Common):
         self._logger.info("Clear launcher!")
         self._device.adb_command("shell pm clear com.tcl.android.launcher")
         self._device.delay(5)
-        self._device.press('back')
-        self._device.press ('back')
-        self._device.press ('back')
+        # self._device.press('back')
+        # self._device.press ('back')
+        # self._device.press ('back')
         self._device.press ('home')
         self._device.delay(3)
         for _ in range(10):
@@ -46,9 +46,16 @@ class Launcher(Common):
                 self._device.delay(2)
                 if self._device(text="Wallpapers").exists:
                     break
-            if self._device(text='GOT IT').exists:
-                self._device(text='GOT IT').click.wait()
-                self._device.delay(1)
+            self._device.delay(2)
+            # while self._device(text="ALLOW").exists:
+            #     self._device (text="ALLOW").click()
+            # if self._device(text='GOT IT').exists:
+            #     self._device(text='GOT IT').click.wait()
+            #     self._device.delay(1)
+            # if self._device(text="Gallery").exists:
+            #     self._device(text="Gallery").click()
+            #     if self._device(text="ALWAYS").exists:
+            #         self._device (text="Gallery").click ()
             self._device(text="Wallpapers").click.wait()
             self._device.delay(1)
             if time%2 != 0:
@@ -61,21 +68,25 @@ class Launcher(Common):
                         self._device.swipe(368,1266,368,550,8)
                 while self._device(text="ALLOW").exists:
                     self._device(text="ALLOW").click()
-                if self._device(text='wallpaper').exists:
-                    self._device(text='wallpaper').click()
-                    self._device.delay(1)
-                if self._device(resourceId='com.tclhz.gallery:id/comments_image_item').exists:
-                    self._device(resourceId='com.tclhz.gallery:id/comments_image_item').click()
-                    self._device.delay(1)
-                if self._device(text='Pictures').exists:
-                    self._device(text='Pictures').click()
-                    self._device.delay(1)
+                if self._device(text="Gallery").exists:
+                    self._device(text="Gallery").click()
+                    if self._device(text="ALWAYS").exists:
+                        self._device(text="ALWAYS").click()
+                # if self._device(text='wallpaper').exists:
+                #     self._device(text='wallpaper').click()
+                #     self._device.delay(1)
+                # if self._device(resourceId='com.tclhz.gallery:id/comments_image_item').exists:
+                #     self._device(resourceId='com.tclhz.gallery:id/comments_image_item').click()
+                #     self._device.delay(1)
+                # if self._device(text='Pictures').exists:
+                #     self._device(text='Pictures').click()
+                #     self._device.delay(1)
                 _index = random.choice(range(1,6))
                 if self._device(text="enterPhoto").exists:
                     self._device (text="enterPhoto").click()
                     self._device.delay (2)
                 self._device(instance= _index,resourceId = "com.tclhz.gallery:id/comments_image_item").click()
-                self._device.delay(1)    
+                self._device.delay(1)
             else:
                 self._device(resourceId="com.tcl.android.launcher:id/wallpaper_thumbnails_item").click.wait()
                 if self._device(resourceId="com.tcl.android.launcher:id/wallpaper_switch_prompt_text").exists:
@@ -331,7 +342,8 @@ class Launcher(Common):
                         self._device.delay(1)
                     else:
                         try:    
-                            item.drag.to(x=99+(app//6)*174, y=166+(app%6)*180, steps=20)
+                            # item.drag.to(x=99+(app//6)*174, y=166+(app%6)*180, steps=20)
+                            item.drag.to (x=261, y=838, steps=20)
                             '''
                             x=a+(app//b)*c,y=d+(app%b)*e
                             a:first column abscissa

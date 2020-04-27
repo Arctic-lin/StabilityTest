@@ -136,6 +136,8 @@ class LockScreen(Common):
     def unlock_pattern(self):
         if self.isMILAN_GL:
             points = [(362, 852), (540, 852), (540, 1032), (540, 1212), (362, 1212)]
+        elif self.isMILAN_EEA:
+            points = [(362, 852), (540, 852), (540, 1032), (540, 1212), (362, 1212)]
         else:
             points = [(362, 852), (540, 852), (540, 1032), (540, 1212), (362, 1212)]
         steps = 50
@@ -148,6 +150,8 @@ class LockScreen(Common):
         # self.device.swipe(1000, 900, 300, 900, steps=10)
         self.device.delay(1)
         if self.isMILAN_GL:
+            self.device.long_click(368, 720)
+        elif self.isMILAN_EEA:
             self.device.long_click(368, 720)
         else:
             self.device.long_click(540, 900)

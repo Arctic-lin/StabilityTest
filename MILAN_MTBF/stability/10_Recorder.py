@@ -31,8 +31,8 @@ class TestRecorder(BaseTestCase):
 
     def case_record_audio(self, times):
         self.mod.logger.debug("Do Record Audio test " + str(times) + ' Times')
-        self.mod.enter()
         self.mod.delete_all_audio()
+        self.mod.enter()
         for loop in range(times):
             try:
                 name = self.mod.random_name(loop)

@@ -37,6 +37,7 @@ class Message(Common):
     
     def enter_message(self):
         self._logger.debug("Launch Message.")
+        self.backToHomeFromMessage()
         self._device.start_activity(message_package,message_activity)
         self._device.delay(2)
         if self._device.currentPackageName == message_package:
@@ -62,6 +63,8 @@ class Message(Common):
         self._device.delay(2)
         self._device.press("enter")
         self._device.delay(2)
+        if self._device (resourceId="com.google.android.apps.messaging:id/close_button").exists:
+            self._device (resourceId="com.google.android.apps.messaging:id/close_button").click.wait ()
         conItem = self._device(resourceId="com.google.android.apps.messaging:id/compose_message_text")
         for _ in range(2):
             if conItem.exists:
@@ -77,11 +80,12 @@ class Message(Common):
             self._device(resourceId='com.google.android.apps.messaging:id/send_message_button_icon').click()
             self._device.delay(3)
             self._logger.debug('sending...')
-            message_status = self._device(resourceId="com.google.android.apps.messaging:id/message_status",textContains="Now • SMS")
+            message_status = self._device(resourceId="com.google.android.apps.messaging:id/message_status",textMatches="Now.*SMS")
             for _ in range(5):
                 if message_status.exists:
                     self._logger.debug("The message sent successfully!")
-                    return True
+                    if self.backToHomeFromMessage():
+                        return True
                 self._device.delay(3)
         except Exception:
             self.save_fail_img()
@@ -92,7 +96,7 @@ class Message(Common):
         self._logger.debug("Start to new Message.")
         if not self.enter_message():
             self.enter_message()
-        print(number)
+        self._device.delay (2)
         if self.sendSMS(number,content):
             self.backToHome()
             return True
@@ -106,6 +110,8 @@ class Message(Common):
                       
            
     def add_and_delete_attachment(self,_type):
+        if self._device (resourceId="com.google.android.apps.messaging:id/close_button").exists:
+            self._device (resourceId="com.google.android.apps.messaging:id/close_button").click.wait ()
         for _ in range(5):
             if  self._device(resourceId='com.google.android.apps.messaging:id/c2o_category_toggle_icon').exists:
                 break
@@ -176,7 +182,6 @@ class Message(Common):
 
 
     def enterGalleryfromMessage(self):
-        self.clearAllRecent()
         if not self.enter_message():
             self.enter_message()
         self.set_draft()
@@ -214,9 +219,9 @@ class Message(Common):
         else:
             self._logger.warning("Enter camera from message to take %s failed!" % _type)
             self.backToHome()
+            self._logger.debug ('enterAttachment failed.')
             return False
-        self.logger.debug('enterAttachment failed.')
-        return False
+
     
     def backToHomeFromMessage(self):
         for _ in range(10):
@@ -229,24 +234,22 @@ class Message(Common):
                             
     def slideAndPreviewMedia(self,mediaType):
         self._logger.info("Slide and preview media:%s" % mediaType)
-        # self.clearAllRecent()
-        # if not self.enter_message():
-        #     self.enter_message()
-        # self.set_draft()
         self.enterGalleryfromMessage()
         if self._device(text="enterPhoto").exists:
             self._device (text="enterPhoto").up(resourceId="com.tclhz.gallery:id/album_item_cover").click()
         scroll_view = self._device(resourceId='com.tclhz.gallery:id/comments_image_item',instance=10)
         view_group=self._device(className="android.view.ViewGroup",clickable=True)
+        video_widget=self._device(textMatches="\d\d:\d\d",resourceId="com.tclhz.gallery:id/moments_image_item_duration")
         if scroll_view.exists:
             for i in range(view_group.count):
                 scroll_view.scroll.vert.forward(steps=10)
                 self._device.delay(2)
                 if mediaType == "video":
-                    if view_group[i].get_child_count == 3:
-                        view_group[i].click()
+                    if video_widget.exists:
+                        video_widget.click()
                         break
                 elif mediaType == "image":
+                    print (mediaType, view_group[i].get_child_count == 2)
                     if view_group[i].get_child_count() == 2:
                         view_group[i].click ()
                         break
@@ -289,8 +292,8 @@ class Message(Common):
 
     def addAndDeleteAttachment(self):
         try:
-            self.slideAndPreviewMedia("image")
-            return True
+            if self.slideAndPreviewMedia("image"):
+                return True
         # if not self.enter_message():
         #     self.enter_message()
         # self.set_draft()
@@ -337,16 +340,21 @@ class Message(Common):
         self._logger.debug("Launch gallery,sharePicAndVideo.")
         self._device.start_activity(gallery_package, gallery_activity)
         self._device.delay(2)
-        if not self._device(text="Photos").exists:
-            return False
-        for _index in range(2):
-            self._device(className="android.view.ViewGroup",instance=_index).long_touch()
-            if self._device(resourceId="com.tclhz.gallery:id/moment_selection_menu_action_share").exists:
-                break
-            else:
-                self._device(className="android.view.ViewGroup",instance=_index).long_touch()
-            self._device.delay(1)
-        self._device(resourceId="com.tclhz.gallery:id/moment_selection_menu_action_share").click.wait()
+        # if not self._device(text="Photos").exists:
+        #     return False
+        # for _index in range(2):
+        #     self._device(className="android.view.ViewGroup",instance=_index).long_touch()
+        #     if self._device(resourceId="com.tclhz.gallery:id/moment_selection_menu_action_share").exists:
+        #         break
+        #     else:
+        #         self._device(className="android.view.ViewGroup",instance=_index).long_touch()
+        #     self._device.delay(1)
+        # self._device(resourceId="com.tclhz.gallery:id/moment_selection_menu_action_share").click.wait()
+        if self._device(resourceId="com.tclhz.gallery:id/comments_image_item").exists:
+            self._device (resourceId="com.tclhz.gallery:id/comments_image_item").long_touch()
+        if self._device(resourceId="com.tclhz.gallery:id/moment_selection_menu_action_share").exists:
+            self._device (resourceId="com.tclhz.gallery:id/moment_selection_menu_action_share").click()
+        self._device.delay(1)
         self.shareByMessage()
         self._logger.debug("SharePicAndVideo successful.")
         return True
@@ -439,4 +447,4 @@ if __name__ == "__main__":
     #Msg.shareContacts()
     #Msg.shareRecording()
     #Msg.shareDownloads()
-    Msg.test()
+    Msg.slideAndPreviewMedia("video")

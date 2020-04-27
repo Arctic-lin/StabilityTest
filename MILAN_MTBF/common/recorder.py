@@ -12,20 +12,32 @@ class Recorder(Common):
 
     def __init__(self, device, log_name):
         super(Recorder, self).__init__(device, log_name)
+        # self.record_btn = self.device(
+        #     resourceId='com.%s.soundrecorder:id/recordButton' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.stop_btn = self.device(
+        #     resourceId='com.%s.soundrecorder:id/stopButton' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.record_title = self.device(
+        #     resourceId='com.%s.soundrecorder:id/record_file_item' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.record_list_btn = self.device(
+        #     resourceId='com.%s.soundrecorder:id/img_file_list' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.del_btn = self.device(resourceId='com.%s.soundrecorder:id/delete' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.progress_bar = self.device(
+        #     resourceId='com.%s.soundrecorder:id/stateProgressBar' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.record_file_more = self.device(resourceId="com.%s.soundrecorder:id/record_file_more"% ("tct" if self.isMILAN_GL else "tcl.tct"))
+        # self.company = "tct" if self.isMILAN_GL else "tcl.tct"
         self.record_btn = self.device(
-            resourceId='com.%s.soundrecorder:id/recordButton' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+            resourceId='com.%s.soundrecorder:id/recordButton' % ("tct" if self.isMILAN_EEA else "tcl.tct"))
         self.stop_btn = self.device(
-            resourceId='com.%s.soundrecorder:id/stopButton' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+            resourceId='com.%s.soundrecorder:id/stopButton' % ("tct" if self.isMILAN_EEA else "tcl.tct"))
         self.record_title = self.device(
-            resourceId='com.%s.soundrecorder:id/record_file_item' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+            resourceId='com.%s.soundrecorder:id/record_file_item' % ("tct" if self.isMILAN_EEA else "tcl.tct"))
         self.record_list_btn = self.device(
-            resourceId='com.%s.soundrecorder:id/img_file_list' % ("tct" if self.isMILAN_GL else "tcl.tct"))
-        self.del_btn = self.device(resourceId='com.%s.soundrecorder:id/delete' % ("tct" if self.isMILAN_GL else "tcl.tct"))
+            resourceId='com.%s.soundrecorder:id/img_file_list' % ("tct" if self.isMILAN_EEA else "tcl.tct"))
+        self.del_btn = self.device(resourceId='com.%s.soundrecorder:id/delete' % ("tct" if self.isMILAN_EEA else "tcl.tct"))
         self.progress_bar = self.device(
-            resourceId='com.%s.soundrecorder:id/stateProgressBar' % ("tct" if self.isMILAN_GL else "tcl.tct"))
-        self.record_file_more = self.device(resourceId="com.%s.soundrecorder:id/record_file_more"% ("tct" if self.isMILAN_GL else "tcl.tct"))
-
-        self.company = "tct" if self.isMILAN_GL else "tcl.tct"
+            resourceId='com.%s.soundrecorder:id/stateProgressBar' % ("tct" if self.isMILAN_EEA else "tcl.tct"))
+        self.record_file_more = self.device(resourceId="com.%s.soundrecorder:id/record_file_more"% ("tct" if self.isMILAN_EEA else "tcl.tct"))
+        self.company = "tct" if self.isMILAN_EEA else "tcl.tct"
         self.app_name = 'Sound Recorder'
         self.package = 'com.%s.soundrecorder' % self.company
         self.launch_activity = 'SoundRecorder'
@@ -43,8 +55,9 @@ class Recorder(Common):
         """
         self.logger.debug('enter Soundrecorder')
         if self.record_btn.wait.exists(timeout=self.timeout):
+            print(self.record_btn.exists)
             return True
-        self.start_app(self.app_name)
+        self.start_app(self.app_name,b_desk=False)
         return self.record_btn.wait.exists(timeout=self.timeout)
 
     def back_main_app(self):

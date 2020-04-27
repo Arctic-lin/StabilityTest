@@ -39,6 +39,9 @@ class Contacts(Common):
         self.start_app("File Manager")
         if self.device(text="ALLOW").exists:
             self.device(text="ALLOW").click()
+        self.device.delay(1)
+        if self.device(resourceId="com.jrdcom.filemanager:id/guide_close").exists:
+            self.device (resourceId="com.jrdcom.filemanager:id/guide_close").click()
         if self.device(text="Internal storage").exists:
             self.device(text="Internal storage").click()
 
@@ -48,9 +51,12 @@ class Contacts(Common):
             self.device (text="Device").click()
         if self.device(text="Contacts").exists:
             self.device(text="Contacts").click()
-            self.device(text="ALWAYS").click()
-            self.device(text="ALLOW").click()
-            self.device (text="OK").click ()
+            if self.device(text="ALWAYS").exists:
+                self.device (text="ALWAYS").click()
+            if self.device(text="ALLOW").exists:
+                self.device (text="ALLOW").click()
+            if self.device (text="OK").exists:
+                self.device (text="OK").click ()
         elif self.device(text="Import contacts from vCard?").exists:
             self.device(text="OK").click()
         self.logger.debug("import %s file successfully" % vcf_name)

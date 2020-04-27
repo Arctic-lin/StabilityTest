@@ -81,7 +81,7 @@ class Common(object):
         self.adb = self.device.server.adb
         self.project_name = self.config.get("ProductName", self.get_project_name().lower())
         self.isMILAN_GL = (self.project_name == "Milan_5061U_GL")
-        self.isMILAN_EEA = (self.project_name == "5061U_EEA")
+        self.isMILAN_EEA = (self.project_name == "Milan_5061U_EEA")
         self.is_testing_in_china = self.config.site == "CHINA"
         self.logger = log_utils.createlogger(mod)
         self.log_path = create_folder()

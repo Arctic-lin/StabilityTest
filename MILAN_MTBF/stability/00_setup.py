@@ -51,7 +51,7 @@ class PreSetUp(unittest.TestCase):
         if cls.mod.isMILAN_GL:
             cls.music = native_Music(cls.mod.device, "native_Music")
         elif cls.mod.isMILAN_EEA:
-            cls.music = YTMusic(cls.mod.device, "YT-music")
+            cls.music = native_Music(cls.mod.device, "native_Music")
         else:
             cls.music = google_Music (cls.mod.device, "google_Music")
         cls.chrome = Chrome(cls.device, 'chrome')
@@ -107,6 +107,7 @@ class PreSetUp(unittest.TestCase):
         app_list = OrderedDict([('Smart Manager', self.close_guide),
                                 ('Switch Phone', self.click_agree),
                                 ('File Manager', self.allow_permissions),
+                                ('File Manager', self.close_guide),
                                 ('Music',self.mod.allow_permissions),
                                 ('Video',self.allow_permissions)])
         for app, action in app_list.items():
@@ -145,8 +146,9 @@ if __name__ == "__main__":
         print sys.argv
         print "please input a device id"
     else:
-        device_id = sys.argv[1]
-        device_id = "VKRST4ORPFD6HMCQ"
+        # device_id = sys.argv[1]
+        device_id = "G69H5TK79LUCMZMV"
+        # device_id = "3647f2b0"
         suiteCase = unittest.TestLoader().loadTestsFromTestCase(PreSetUp)
         suite = unittest.TestSuite([suiteCase])
         unittest.TextTestRunner(verbosity=2).run(suite)

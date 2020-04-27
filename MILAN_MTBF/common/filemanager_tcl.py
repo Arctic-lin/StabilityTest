@@ -17,7 +17,8 @@ class FileManagerTCL(Common):
 
     def __init__(self, device, log_name):
         super(FileManagerTCL, self).__init__(device, log_name)
-        self.company = "jrdcom" if self.isMILAN_GL else "tcl.tct"
+        # self.company = "jrdcom" if self.isMILAN_GL else "tcl.tct"
+        self.company = "jrdcom" if self.isMILAN_EEA else "tcl.tct"
         self.home_id = self.device(resourceId="com.%s.filemanager:id/phone_storage_container" % self.company)
         self.past_btn = self.device(resourceId="com.%s.filemanager:id/floating_action_button" % self.company,
                                     description="Paste")

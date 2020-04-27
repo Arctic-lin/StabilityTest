@@ -26,6 +26,8 @@ class TestMusicPlayer(BaseTestCase):
         super(TestMusicPlayer, cls).setUpClass()
         if cls.c.isMILAN_GL:
             cls.mod = native_Music(cls.c.device, cls.test_mod)
+        elif cls.c.isMILAN_EEA:
+            cls.mod = native_Music(cls.c.device, cls.test_mod)
         else:
             cls.mod = YTMusic(cls.c.device, cls.test_mod)
         cls.mod.back_to_home()

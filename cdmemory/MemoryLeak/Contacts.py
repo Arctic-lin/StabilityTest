@@ -17,7 +17,8 @@ logger.info("Trace Total Times " + str(test_times))
 class ContactsCases(unittest.TestCase):
     pids = ['com.google.android.contacts']
     def setUp(self):
-        mCon.backToHome()       
+        mCon.backToHome()
+        mCon.clearAllRecent()
         self._name =  "Contacts_case_"+self._testMethodName+"_" + mCon.GetNowTime()
         self.sr = SampleAndReport(self.pids, sample=3, 
                                   caseName = self._name, 
@@ -102,7 +103,6 @@ class ContactsCases(unittest.TestCase):
     def testCallContact(self):
         startTime = time.time()
         logger.info("Call Contact")
-        
         while time.time() - startTime < test_times:
             try:
                 if mCon.enter_contact() and mCon.testCallContact():
@@ -121,7 +121,6 @@ class ContactsCases(unittest.TestCase):
     def testReEnterContact(self):
         startTime = time.time()
         logger.info("ReEnter Contact")
-        mCon.clearAllRecent()
         while time.time() - startTime < test_times:
             try:
                 if mCon.enter_contact():
@@ -140,7 +139,6 @@ class ContactsCases(unittest.TestCase):
     def testReEnterDetailsContact(self):
         startTime = time.time()
         logger.info("ReEnter Details Contact")
-        mCon.clearAllRecent()
         while time.time() - startTime < test_times:
             try:
                 if mCon.enter_contact() and mCon.testReEnterDetailsContact():
@@ -159,7 +157,6 @@ class ContactsCases(unittest.TestCase):
     def testEnterContactByRecent(self):
         startTime = time.time()
         logger.info("ReEnter Contact")
-        mCon.clearAllRecent()
         while time.time() - startTime < test_times:
             try:
                 if mCon.testEnterContactByRecent():  
@@ -176,11 +173,11 @@ class ContactsCases(unittest.TestCase):
                             
 if __name__ == "__main__":    
     common.runTest(ContactsCases, [
-                                    "testChangePhoto",
-                                    "testSwipeContacts",
+                                    # "testChangePhoto",
+                                    # "testSwipeContacts",
                                     "testFindContact",
-                                    "testCallContact",
-                                    "testReEnterContact",
-                                    "testReEnterDetailsContact",
-                                    "testEnterContactByRecent"
+                                    # "testCallContact",
+                                    # "testReEnterContact",
+                                    # "testReEnterDetailsContact",
+                                    # "testEnterContactByRecent"
                                   ])

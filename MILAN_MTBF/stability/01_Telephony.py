@@ -125,5 +125,5 @@ class TestTelephony(BaseTestCase):
 if __name__ == "__main__":
     suiteCase = unittest.TestLoader().loadTestsFromTestCase(TestTelephony)
     suite = unittest.TestSuite([suiteCase])
-    print "bbbb",suite
+    # print "bbbb",suite
     unittest.TextTestRunner(verbosity=2).run(suite)

@@ -256,23 +256,22 @@ class Camera(Common):
         if self.enter_camera():
             self.backToHome()
             return True
-        
         return False
     
     def enterCameraByRecent(self):
         self._logger.debug('enter Camera By Recent')
+        self._device.delay(2)
         if self.enter_camera():
             self.backToHome()
-            if self.task_enter():
-                if self._device(resourceId="com.android.launcher3:id/snapshot").exists:
-                    self._device(resourceId="com.android.launcher3:id/snapshot").click.wait() 
-#                 if self._device(text="Camera").exists:
-#                     self._device(text="Camera").click()  
-                    self._device.delay(2)
-                    if self._device.currentPackageName == camera_package:
-                        return True
+            self._device.press.recent ()
+            self._device.delay(2)
+            if self._device(resourceId="com.tcl.android.launcher:id/snapshot").exists:
+                self._device(resourceId="com.tcl.android.launcher:id/snapshot").click.wait()
+                self._device.delay(2)
+                if self._device.currentPackageName == camera_package:
+                    return True
         return False
-    
+
     def burstShot(self):
 #         self.frontBackSwitch("back")
 #         StorePath_Media = '/storage/'+self.get_SDcard_name()+'/DCIM/Camera'

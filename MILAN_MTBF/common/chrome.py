@@ -28,9 +28,9 @@ class Chrome(Common):
         if self.device(text="我知道了").exists:
             self.device (text="我知道了").click()
         time.sleep(1)
-        if self.device(textMatches="Search with Sogo|"
+        if self.device(textMatches="Search with Sogou|"
                                    "Chrome can use Sogou for search in China. You can change this in Settings.").exists:
-            self.device(resourceId="OK").click()
+            self.device(text="OK").click()
         self.device(resourceId="com.android.chrome:id/tab_switcher_button").click()
         self.device(resourceId="com.android.chrome:id/new_tab_button").click()
         time.sleep(3)

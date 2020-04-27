@@ -8,7 +8,7 @@ from lib.messageModule import Message
 logger = common.createlogger("MAIN")
 logger.debug("Connect devices")
 mdevice = common.connect_device("MDEVICE")
-# mdevice = common.connect_device("EUEANBLJJRDIEUPZ")
+mdevice = common.connect_device("GAWKFQT8WGL7L7S8")
 mMsg =  Message(mdevice, "Message")
 
 cfg = GetConfigs("Message+")
@@ -21,10 +21,11 @@ class MessageTestCase(unittest.TestCase):
     
     def setUp(self):
         mMsg.backToHome()
+        mMsg.clearAllRecent()
         mMsg.enter_message()
         #mdevice.shell_adb("shell pm clear com.vodafone.messaging")
         self._name = "Message+_case_" + self._testMethodName + "_" + mMsg.GetNowTime()
-        self.sr = SampleAndReport(self.pids, sample=3, 
+        self.sr = SampleAndReport(self.pids, sample=3,
                                   caseName = self._name,
                                   device = common.get_deviceId("MDEVICE"))
         self.sr.start()
@@ -126,7 +127,7 @@ class MessageTestCase(unittest.TestCase):
                 mMsg.save_fail_img()
                 logger.warning("addAndDeleteAttachment Exception!")
                 common.log_traceback(traceback.format_exc())
-                mMsg.backToHome()        
+                mMsg.backToHome()
     
     def testShareInfoAndDelete(self):
         startTime = time.time()
@@ -148,7 +149,9 @@ class MessageTestCase(unittest.TestCase):
         logger.info("SlideToReadInfo")
         if not mMsg.enter_message():
             mMsg.enter_message() 
-        mMsg._device(resourceId="android:id/list").child(index=0).click.wait()
+        # mMsg._device(resourceId="android:id/list").child(index=0).click.wait()
+        if mMsg._device (text="181 3688 7453").exists:
+            mMsg._device (text="181 3688 7453").click.wait()
         mMsg._device.delay(1)
         while time.time() - startTime < test_times:
             try:
@@ -158,11 +161,7 @@ class MessageTestCase(unittest.TestCase):
                 for _ in range(5):
                     mMsg._device.swipe(360,1080,360,200,10)
                     mMsg._device.delay(1)
-#                 mMsg._device(resourceId="android:id/list").swipe.up(steps=10)
-#                 mMsg._device.delay(1)
-#                 mMsg._device(resourceId="android:id/list").swipe.down(steps=10)
-#                 mMsg._device.delay(1)
-                logger.info("Trace Success Loop")               
+                logger.info("Trace Success Loop")
             except Exception:
                 mMsg.save_fail_img()
                 logger.warning("testSlideToReadInfo Exception!")
@@ -172,12 +171,12 @@ class MessageTestCase(unittest.TestCase):
 
 if __name__ == "__main__":
     common.runTest(MessageTestCase, [
-                                    # "testSlideToReadInfo",
-                                    # "testNewAndCloseSMS",
-                                    # "testEnterCamera",
-                                    # "testEnterGallery",
-                                    # "testSlideAndPreviewMedia",
-                                    # "testAddSoundRecord",
+                                    "testSlideToReadInfo",
+                                    "testNewAndCloseSMS",
+                                    "testEnterCamera",
+                                    "testEnterGallery",
+                                    "testSlideAndPreviewMedia",
+                                    "testAddSoundRecord",
                                     "testAddAndDeleteAttachment",
                                     "testShareInfoAndDelete",
                                     ])

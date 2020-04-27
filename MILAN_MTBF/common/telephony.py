@@ -269,7 +269,7 @@ class Telephony(Common):
         self.device.wait.idle()
         # make call
         self.device.delay(5)
-        if self.call_btn().exists:
+        if self.call_btn.exists:
             self.call_btn.click()
 
     def make_call_from_contact(self, index):

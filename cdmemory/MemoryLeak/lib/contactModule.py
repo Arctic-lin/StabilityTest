@@ -333,6 +333,10 @@ class Contacts(Common):
     def findContact(self):
         self._device(resourceId ="com.google.android.contacts:id/open_search_bar_text_view").click.wait()
         self._device.delay(2)
+        if self._device(text ="Allow").exists:
+            self._device(text ="Allow").click()
+            if self._device(text ="ALLOW ALL THE TIME").exists:
+                self._device (text="ALLOW ALL THE TIME").click()
         if self._device(text ="Search contacts").exists and self._device(description="Open navigation drawer").exists:
             self._device(text ="Search contacts").set_text("CD")
             self._device.delay(2)
@@ -382,11 +386,14 @@ class Contacts(Common):
 #             return False
             
     def testReEnterDetailsContact(self):
+        if self._device(description="Navigate up").exists:
+            self._device (description="Navigate up").click.wait()
         if self._device(resourceId ="com.google.android.contacts:id/cliv_name_textview",instance = 2).wait.exists(timeout= 2000):
             self._device(resourceId ="com.google.android.contacts:id/cliv_name_textview",instance = 2).click.wait()
             self._device.delay(3)
             if self._device(description ="Set up Duo video calling").exists:
-                return True        
+                pass
+            return True
         return False    
     
     def testEnterContactByRecent(self):

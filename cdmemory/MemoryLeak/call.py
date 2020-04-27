@@ -11,7 +11,7 @@ from lib.callModule import Call
 logger = common.createlogger("MAIN")
 logger.debug("Connect devices")
 mdevice= common.connect_device("MDEVICE")
-mdevice = common.connect_device("GAWKFQT8WGL7L7S8")
+# mdevice = common.connect_device("GAWKFQT8WGL7L7S8")
 mCall = Call(mdevice, "mCall")
 
 cfg = GetConfigs("Call")
@@ -25,6 +25,7 @@ class CallTestCase(unittest.TestCase):
     
     def setUp(self):
         mCall.backToHome()
+        mCall.clearAllRecent()
         mCall.enter_call()        
         self._name ="Call_case_"+ self._testMethodName+"_"+mCall.GetNowTime()
         self.sr = SampleAndReport(self.pids, sample=3, 
@@ -111,7 +112,6 @@ class CallTestCase(unittest.TestCase):
                 mCall.swipeInCalls()
                 mCall.enterDetailsAndCall()
                 mCall.deleteRecentCalls()
-                
                 logger.info("Trace Success Loop")
             except Exception:
                 mCall.save_fail_img()
@@ -140,10 +140,10 @@ class CallTestCase(unittest.TestCase):
 
 if __name__ == "__main__":
     common.runTest(CallTestCase, [
-                                "testContDialFromDifMode",
-                                "testSwitchAndInvokeRecent",
-                                "testSwitchListInCall",
-                                "testMatchPhoneNumber",
+                                # "testContDialFromDifMode",
+                                # "testSwitchAndInvokeRecent",
+                                # "testSwitchListInCall",
+                                # "testMatchPhoneNumber",
                                 "testLargerCalllog",
                                  ])    
     

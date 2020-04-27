@@ -8,7 +8,7 @@ from lib.fileManager import FileManager
 logger = common.createlogger("MAIN")
 logger.debug("Connect devices")
 mdevice = common.connect_device("MDEVICE")
-#mdevice = common.connect_device("501f6876")
+# mdevice = common.connect_device("GAWKFQT8WGL7L7S8")
 mLauncher = Launcher(mdevice, "M_LAUNCHER")
 mFileManager = FileManager(mdevice,'M_FILEMANAGER')
 
@@ -92,7 +92,7 @@ class LauncherCases(unittest.TestCase):
                 else:
                     logger.warning('Create Shortcut Fail')   
                     mLauncher.save_fail_img() 
-                #mLauncher.clearLauncher()                   
+                mLauncher.clearLauncher()
             except Exception:
                 common.log_traceback(traceback.format_exc())
                 mLauncher.save_fail_img()
@@ -168,13 +168,13 @@ class LauncherCases(unittest.TestCase):
 
 if __name__ == "__main__":
     common.runTest(LauncherCases, [
-                                    "testSetWallpaper",
-                                    "testCreateFolder",
-                                    "testOpenCloseFolder",
+                                    # "testSetWallpaper",
+                                    # "testCreateFolder",
+                                    # "testOpenCloseFolder",
                                     "testCreateShortcut",
-                                    "testChangeIdle",
-                                    "testAddDelDynamicAPP",
+                                    # "testChangeIdle",
+                                    # "testAddDelDynamicAPP",
                                     # "testAddWidget",
-                                    "testInstallAPK"
+                                    # "testInstallAPK"
                                    ])
 

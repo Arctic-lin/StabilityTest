@@ -8,7 +8,7 @@ from lib.camera import Camera
 logger = common.createlogger("MAIN")
 logger.debug("Connect devices")
 mdevice = common.connect_device("MDEVICE")
-mdevice = common.connect_device("GAWKFQT8WGL7L7S8")
+# mdevice = common.connect_device("GAWKFQT8WGL7L7S8")
 mCam = Camera(mdevice, "Camera")
 path = mCam.get_SDcard_name()
 
@@ -19,13 +19,11 @@ logger.info("Trace Total seconds " + str(test_times))
 class CameraCases(unittest.TestCase):
     pids = ["com.tcl.camera", "mediaserver"]
     def setUp(self):
-        mCam.backToHome()   
-#         mdevice.shell_adb(rmcmd)
+        mCam.backToHome()
         mdevice.shell_adb("shell rm -rf /sdcard/"+path+"/DCIM/Camera/*")
         mdevice.delay(2)
-        mdevice.shell_adb("shell pm com.tcl.camera")
+        # mdevice.shell_adb("shell pm clear com.tcl.camera")
         self._name ="Camera_case_" + self._testMethodName+"_"+mCam.GetNowTime()
-          
         self.sr = SampleAndReport(self.pids, sample=3, 
                                   caseName = self._name, 
                                   device = common.get_deviceId("MDEVICE"))               
